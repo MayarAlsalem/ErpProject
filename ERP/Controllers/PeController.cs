@@ -20,7 +20,7 @@ namespace ERP.Controllers
         {
             _context = context;
         }
-
+      
         public Pe Find(int id)
         {
             return _context.Pe.SingleOrDefault(p => p.IdPe == id);

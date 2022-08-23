@@ -79,6 +79,9 @@
                     @Html.DisplayNameFor(model => model.Ti2Ev)
                 </th>
                 <th>
+                    @{ 
+                        
+                    }
                     @Html.DisplayNameFor(model => model.ArEv)
                 </th>
                 <th>
@@ -91,24 +94,32 @@
             </tr>
         </thead>
         <tbody id="tbody">
-            @foreach (var item in Model)
+            @if(Model!=null)foreach (var item in Model)
             {
             <tr class="hoverRow">
                 <td>
                     @Html.DisplayFor(modelItem => item.IdEv)
                 </td>
                 <td style="direction: ltr;">
-                    @{ 
-                        DateTime DaEv = item.DaEv.Value;
-                        string date = DaEv.Day+"-"+DaEv.Date.ToString("MMM")+"-"+DaEv.Year;
-                    }
+                    @{
+                        string date=string.Empty;
+                        if (item.DaEv != null)
+                        {
+                            DateTime DaEv = item.DaEv.Value;
+                            date = DaEv.Day + "-" + DaEv.Date.ToString("MMM") + "-" + DaEv.Year;
+                        }
+                        }
                     @Html.DisplayFor(modelItem => date)
                 </td>
                 <td>
-                    @{ 
-                        DateTime time = item.Ti1Ev.Value;
-                        string t = time.Hour.ToString() +":"+ time.Minute.ToString();
-                    }
+                    @{
+                        string t = string.Empty;
+                        if (item.Ti1Ev != null)
+                        {
+                            DateTime time = item.Ti1Ev.Value;
+                            t = time.Hour.ToString() + ":" + time.Minute.ToString();
+                        }
+                        }
                     @Html.DisplayFor(modelItem =>t)
                 </td>
                 <td>
@@ -118,14 +129,22 @@
                     @Html.DisplayFor(modelItem => item.IdPeNavigation.NaPe)
                 </td>
                 <td>
-                    @{ 
-                        DateTime Ti2Ev = item.Ti2Ev.Value;
-                        string ti2 = Ti2Ev.Hour.ToString() + ":" + Ti2Ev.Minute.ToString();
-                    }
+                    @{
+                        string ti2 = string.Empty;
+                        if (item.Ti2Ev != null)
+                        {
+                            DateTime Ti2Ev = item.Ti2Ev.Value;
+                            ti2 = Ti2Ev.Hour.ToString() + ":" + Ti2Ev.Minute.ToString();
+                        }
+                        }
                     @Html.DisplayFor(modelItem => ti2)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.ArEv)
+                    @{ 
+                        
+                        string ArEv = item.ArEv==true ? "مؤرشف" : "غير مؤرشف";
+                    }
+                    @Html.DisplayName(ArEv)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.CoPrNavigation.CoPr)

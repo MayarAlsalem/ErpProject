@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ERP.Models;
+using System.Reflection;
+using System.ComponentModel.DataAnnotations;
 
 namespace ERP.Controllers
 {
@@ -19,8 +21,77 @@ namespace ERP.Controllers
         }
 
         // GET: Ev
+        public async Task<IActionResult> Search(string value, string col)
+        {
+            FillSelectsWithColumns();
+            if (!string.IsNullOrEmpty(col))
+            {
+
+                var eRPContext = _context.Ev;
+                switch (col)
+                {
+
+                    case "IdEv":
+                        try
+                        {
+                           int id= int.Parse(value);
+                            return View(nameof(Index), await eRPContext.Where(e => e.IdEv == id).ToListAsync());
+                        }
+                        catch
+                        {
+                            return View(nameof(Index));
+                        }
+                        return View(nameof(Index), await eRPContext.Where(c => c.IdPe.ToString() == value).ToListAsync());
+                    case "CoPr":
+                       return View(nameof(Index), await eRPContext.Where(c => c.CoPr.Contains(value)).ToListAsync());
+                    //case "IdPeCat":
+                    //    return View(nameof(Index), await eRPContext.Where(c => c.IdPeCatNavigation.PeCat1.Contains(value)).ToListAsync());
+                    //case "JoPe":
+                    //    return View(nameof(Index), await eRPContext.Where(c => c.JoPe.Contains(value)).ToListAsync());
+                    //case "DaPe":
+                    //    try
+                    //    {
+                    //        return View(nameof(Index), await eRPContext.Where(c => c.DaPe.Date == Convert.ToDateTime(value)).ToListAsync());
+                    //    }
+                    //    catch
+                    //    {
+                    //        return View(nameof(Index));
+                    //    }
+                    //case "DaEnPe":
+                    //    try
+                    //    {
+                    //        return View(nameof(Index), await eRPContext.Where(c => c.DaEnPe.Date == Convert.ToDateTime(value)).ToListAsync());
+                    //    }
+                    //    catch
+                    //    {
+                    //        return View(nameof(Index));
+                    //    }
+                    //case "PhoPe":
+                    //    return View(nameof(Index), await eRPContext.Where(c => c.PhoPe.Contains(value.Trim())).ToListAsync());
+                    default: return View(await eRPContext.ToListAsync());
+                }
+            }
+            else
+            {
+               
+              
+                    var eRPContext = _context.Ev.Where
+                   (
+                   c => c.IdEv.ToString().Contains(value) ||
+                   c.CoPr.Contains(value)
+                   
+                 
+                   );
+                    return View(nameof(Index), await eRPContext.ToListAsync());
+                
+            }
+
+
+
+        }
         public async Task<IActionResult> Index()
         {
+            FillSelectsWithColumns();
             var eRP1R82Context = _context.Ev.Include(e => e.CoPrNavigation).Include(e => e.IdEvRefNavigation).Include(e=>e.IdPeNavigation);
             return View(await eRP1R82Context.ToListAsync());
         }
@@ -156,6 +227,25 @@ namespace ERP.Controllers
             _context.Ev.Remove(ev);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
+        }
+        private void FillSelectsWithColumns()
+        {
+            List<SelectListItem> columns = new List<SelectListItem>();
+            foreach (var field in typeof(Ev).GetProperties())
+            {
+                MemberInfo property = typeof(Ev).GetProperty(field.Name);
+                var dd = property.GetCustomAttribute(typeof(DisplayAttribute)) as DisplayAttribute;
+                if (dd != null)
+                {
+                    if (field.Name == "IdEv" || field.Name == "CoPr" || field.Name == "IdPeCat" || field.Name == "JoPe" || field.Name == "DaPe" || field.Name == "DaEnPe" || field.Name == "PhoPe")
+                        columns.Add(new SelectListItem
+                        {
+                            Value = field.Name,
+                            Text = dd.Name
+                        });
+                }
+            }
+            ViewBag.col = columns;
         }
 
         private bool EvExists(int id)

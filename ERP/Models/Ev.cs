@@ -33,7 +33,7 @@ namespace ERP.Models
         [Display(Name = "مرجع الاحداث")]
         public int? IdEvRef { get; set; }
         [Display(Name = "ارشفة")]
-        public bool ArEv { get; set; }
+        public bool ArEv  { get; set; }
         [Display(Name = "النهاية")]
         public DateTime? Ti2Ev { get; set; }
 
