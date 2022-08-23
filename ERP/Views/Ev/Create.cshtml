@@ -1,0 +1,121 @@
+﻿@model ERP.Models.Ev
+
+@{
+    ViewData["Title"] = "أضافة الحدث";
+}
+@section CssFiles{
+    <link href="~/css/Pe/Create.css" rel="stylesheet" />
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+}
+<h1 style="font-size:40px;">اضافة</h1>
+<hr />
+<br />
+<form asp-action="Index" id="getBackForm">
+    <span class="to-top" onclick="GoIndex()">
+        <i class='bx bx-arrow-back'></i>
+    </span>
+</form>
+
+<div class="crud">
+    <form asp-action="Create">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="inputs">
+            <div class="inputs-1">
+                <div class="box-start">
+                    <div style="text-align:center; font-weight:600;">
+                        <span>تاريخ الحدث</span>
+                    </div>
+                    <input asp-for="DaEv" class="form-control" type="date" placeholder="تاريخ الحدث" />
+                    <span asp-validation-for="DaEv" class="text-danger"></span>
+                </div>
+
+                <div class="box-center" style="display: inline-block;">
+                    <div style="text-align:center; font-weight:600;">
+                        <span>البداية</span>
+                    </div>
+                    <input asp-for="Ti1Ev" class="form-control" type="time" placeholder="البداية" />
+                    <span asp-validation-for="Ti1Ev" class="text-danger left"></span>
+                </div>
+
+                <div class="box-end">
+                    <div style="text-align:center; font-weight:600;">
+                        <span>النهاية</span>
+                    </div>
+                    <input asp-for="Ti2Ev" type="time" placeholder="النهاية">
+                    <span asp-validation-for="Ti2Ev" class="text-danger right"></span>
+                </div>
+
+            </div>
+
+            <div class="inputs-3" style=" align-items: center;">
+                <div class="box-left">
+                    <input asp-for="TitEv" type="text" placeholder="بيان الحدث">
+                    <span asp-validation-for="TitEv" class="text-danger right"></span>
+                </div>
+
+                <div class="box-right">
+                    <select asp-for="IdEvRef" class="form-control" asp-items="ViewBag.IdEvRef" id="ddlCustomers"><option selected="selected" disabled="disabled">مرجع الحدث</option></select>
+                    <span asp-validation-for="IdEvRef" class="text-danger left"></span>
+                </div>
+
+            </div>
+
+            <div class="inputs-4" style="align-items: center;">
+                <div class="box-start">
+                    <input asp-for="PlEv" class="form-control" placeholder="المكان" />
+                    <span asp-validation-for="PlEv" class="text-danger right"></span>
+                </div>
+
+                <div class="box-center">
+                    <select asp-for="CoPr" class="form-control" asp-items="ViewBag.CoPr" id="ddlCustomers1"><option selected="selected" disabled="disabled">رمز المشروع </option></select>
+                    <span asp-validation-for="CoPr" class="text-danger left"></span>
+                </div>
+
+                <div class="box-end">
+                    <select asp-for="IdPe" class="form-control" asp-items="ViewBag.IdPe" id="ddlCustomers2"><option selected="selected" disabled="disabled">اسم الشخص</option></select>
+                    <span asp-validation-for="IdPe" class="text-danger left"></span>
+                </div>
+
+            </div>
+
+            <div class="inputs-5" @*style="display:block"*@>
+                <div class="box-left" style="display:flex; align-items:center; white-space:nowrap">
+                    <div style="text-align:center; font-weight:600;">
+                    <span style="margin-left:5px">تاريخ تسجيل القيد</span>
+                </div>
+                    <input asp-for="DaNev" class="form-control" type="date" >
+                    <span asp-validation-for="DaNev" class="text-danger right"></span>
+                </div>
+
+                <div class="box-right" @*style="width:100%"*@>
+                    <input asp-for="ExEv" placeholder="المحتوى" style="width:100%">
+                    <span asp-validation-for="ExEv" class="text-danger left"></span>
+                </div>
+
+            </div>
+
+            <div class="inputs-6">
+                
+                <textarea asp-for="NotEv" placeholder="الملاحظات"></textarea>
+                <span asp-validation-for="NotEv" class="text-danger"></span>
+            </div>
+            <div class="inputs-7" style="align-items:center; justify-content:start">
+                <div style="text-align:center; font-weight:600;">
+                    <span>الأرشفة </span>
+                </div>
+                <input asp-for="ArEv" type="checkbox" class="form-control" style="width:10%" />
+                <span asp-validation-for="ArEv" class="text-danger"></span>
+            </div>
+
+            <div class="box-btn">
+                <button id="AddPe" class="submit">اضافة </button><br />
+                <button class="submit btn-delete" type="reset">حذف البيانات</button><br />
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

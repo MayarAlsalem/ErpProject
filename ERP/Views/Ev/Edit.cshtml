@@ -1,0 +1,89 @@
+﻿@model ERP.Models.Ev
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Ev</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IdEv" />
+            <div class="form-group">
+                <label asp-for="DaEv" class="control-label"></label>
+                <input asp-for="DaEv" class="form-control" />
+                <span asp-validation-for="DaEv" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ti1Ev" class="control-label"></label>
+                <input asp-for="Ti1Ev" class="form-control" />
+                <span asp-validation-for="Ti1Ev" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TitEv" class="control-label"></label>
+                <input asp-for="TitEv" class="form-control" />
+                <span asp-validation-for="TitEv" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ExEv" class="control-label"></label>
+                <input asp-for="ExEv" class="form-control" />
+                <span asp-validation-for="ExEv" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NotEv" class="control-label"></label>
+                <input asp-for="NotEv" class="form-control" />
+                <span asp-validation-for="NotEv" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PlEv" class="control-label"></label>
+                <input asp-for="PlEv" class="form-control" />
+                <span asp-validation-for="PlEv" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DaNev" class="control-label"></label>
+                <input asp-for="DaNev" class="form-control" />
+                <span asp-validation-for="DaNev" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdPe" class="control-label"></label>
+                <input asp-for="IdPe" class="form-control" />
+                <span asp-validation-for="IdPe" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CoPr" class="control-label"></label>
+                <select asp-for="CoPr" class="form-control" asp-items="ViewBag.CoPr"></select>
+                <span asp-validation-for="CoPr" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdEvRef" class="control-label"></label>
+                <select asp-for="IdEvRef" class="form-control" asp-items="ViewBag.IdEvRef"></select>
+                <span asp-validation-for="IdEvRef" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ArEv" class="control-label"></label>
+                <input asp-for="ArEv" class="form-control" />
+                <span asp-validation-for="ArEv" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ti2Ev" class="control-label"></label>
+                <input asp-for="Ti2Ev" class="form-control" />
+                <span asp-validation-for="Ti2Ev" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,2012 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Ubuntu:wght@400;500;700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Sakkal Majalla',sans-serif !important;
+}
+body{
+
+	min-height: 100vh;
+	overflow: auto;
+	transition: background 0.3s linear;
+	background: #f5f5f5;
+
+}
+body.dark {
+	background-color: #292C35;
+}
+body.dark .main 
+{
+color: #fff;
+}
+body.dark .nav{
+	background: #f5f5f5;
+	border-right:10px solid #f5f5f5;
+}
+body.dark .nav ul li:hover,
+.nav ul li.hovered{
+	background: #292C35;
+}
+body.dark .nav ul li:hover a,
+.nav ul li.hovered a{
+	color: #f5f5f5;
+}
+body.dark .search label  ion-icon{
+	color: #292C35;
+}
+body.dark .nav ul li a{
+	color: #292C35;
+}
+body.dark .nav ul li:hover a::before,
+.nav ul li.hovered a::before{
+	box-shadow: -35px  35px 0 10px #292C35;
+}
+body.dark .nav ul li:hover a::after,
+.nav ul li.hovered a::after{
+	box-shadow: -35px -35px 0 10px #292C35;
+}
+body.dark .nav ul li:nth-child(1) a img{
+	filter: brightness(0);
+}
+body.dark button{
+	color: #292C35;
+	background: #f5f5f5;
+	font-weight: 500;
+	font-size: 18px;
+}
+body.dark button:hover{
+	font-size: 20px;
+}
+body.dark input{
+	color: #f5f5f5;
+	background: #292C35;
+	border: 2px solid #f5f5f5;
+}
+body.dark select{
+	border: 2px solid #f5f5f5;
+	background: #292C35;
+	color: #f5f5f5;
+	border-radius: 10px;
+}
+body.dark select:focus{
+	border: 2px solid #f5f5f5;
+	background: #292C35;
+	color: #f5f5f5;
+	border-radius: 10px;
+}
+body.dark input:focus{
+	border: 2.5px solid #4285f4;
+}
+body.dark .inputs-1 span{
+	background: #292C35;
+	border-radius: 20px;
+}
+body.dark .inputs-2 span{
+	background: #292C35;
+	border-radius: 20px;
+}
+body.dark .inputs-3 span{
+	background: #292C35;
+	border-radius: 20px;
+}
+body.dark .inputs-4 span{
+	background: #292C35;
+	border-radius: 20px;
+}
+body.dark .inputs-5 span{
+	background: #292C35;
+	border-radius: 20px;
+}
+body.dark .inputs span{
+	background: #292C35;
+	border-radius: 20px;
+}
+body.dark .outputs span{
+	background: #292C35;
+	border-radius: 20px;
+}
+body.dark input:hover{
+    transition: all 0.1s ease;
+    border: 2.5px solid #4285f4
+}
+body.dark .notifiction ion-icon{
+	color: #f5f5f5;
+}
+body.dark tr td{
+	border: 1px solid #f5f5f5;
+}
+body.dark table th{
+	background: #f5f5f5;
+	color: #292C35;
+}
+.container{
+	position: relative;
+	width: 100%;
+	direction: rtl;
+}
+.nav{
+	position: fixed;
+	width: 20%;
+	height: 100%;
+	background: #292C35;
+	border-right:10px solid #292C35;
+	transition: 0.5s;
+	overflow: hidden;
+	z-index: 1000;
+}
+.nav.active{
+	width:6%;
+}
+.nav ul{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+}
+.nav ul li{
+	position: relative;
+	width: 100%;
+	list-style: none;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+.nav ul li:hover,
+.nav ul li.hovered
+{
+	background: #f5f5f5;
+}
+.nav ul li:nth-child(1){
+	margin-top: 20px;
+	margin-right: -5px;
+	margin-bottom:35px;
+	pointer-events: none;
+	position: center;
+}
+.nav ul li a{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	display: flex; 
+	text-decoration: none;
+	color: #f5f5f5;
+}
+.nav ul li:hover a,
+.nav ul li.hovered a
+{
+	color: #292C35;
+}
+.nav ul li a .icon{
+	position: relative;
+	display:inline-block;
+	min-width: 60px;
+	height: 50px;
+	line-height: 73px;
+	text-align: center;
+
+}
+.nav ul li a .icon ion-icon{
+	font-size: 1.5em;
+}
+.nav ul li a .title{
+	position: relative;
+	font-size: 20px;
+	display: block;
+	padding: 0 20px;
+	height: 60px;
+	line-height: 60px;
+	text-align: start;
+	white-space: nowrap;
+}
+/*curve outside*/
+.nav ul li:hover a::before,
+.nav ul li.hovered a::before
+{
+	content: '';
+	position: absolute;
+	left:0;
+	top: -50px;
+	width: 50px;
+	height: 50px;
+	background: transparent;
+	border-radius: 50%;
+	box-shadow: -35px  35px 0 10px #f5f5f5;
+	pointer-events: none;
+}
+.nav ul li:hover a::after,
+.nav ul li.hovered a::after
+{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -50px;
+	width: 50px;
+	height: 50px;
+	background: transparent;
+	border-radius:50%;
+	box-shadow: -35px -35px 0 10px #f5f5f5;
+}
+/*     main          */
+.main{
+	position: absolute;
+	width: calc(100% - 20%);
+	right:20%;
+	min-height: 100vh;
+	transition: 0.5s;
+}
+.main.active{
+	width: calc(100% - 6%);
+	right:6%;
+}
+.topbar{
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:0 10px;
+}
+.toggle{
+	position: relative;
+	width: 60px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	font-size: 2.5em;
+	cursor: pointer;
+}
+.notifiction{
+	position: relative;
+	width: 60%;
+}
+.notifiction a ion-icon:hover{
+	color: red;	
+	transition: all 0.4s ease;
+}
+.notifiction ion-icon{
+	position: absolute;
+	top: -12px;
+	left: -100px;
+	font-size: 25px;
+	color: #292C35;
+}
+#count{
+	position: absolute;
+	left: -85px;
+	bottom: 0px;
+	background: red;
+	padding: 0 5px;
+	border-radius: 50%;
+	font-size: 12px;
+	color: #fff;
+}
+.user{
+	position: relative;
+	width: 60px;
+	height: 50px;
+	overflow: hidden;
+	cursor: pointer;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.checkbox{
+	opacity: 0;
+	position: absolute;
+}
+.checkbox:checked + .label .ball{
+	transform: translateX(30px);
+}
+.label{
+	background-color: #111;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-radius:50px;
+	position: relative;
+	padding:5px;
+	height: 30px;
+	width: 60px;
+}
+.ball{
+	background-color: #fff;
+    border-radius:50%;
+	position: absolute;
+	top: 3.5px;
+	left:3.5px;
+	height: 22px;
+	width: 22px;
+	transition: transform 0.3s linear;
+}
+.user label ion-icon:nth-child(1){
+	color: #f1c40f;
+}
+.user label ion-icon{
+	color: #f39c12;
+}
+.user input label{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.crud{
+	width: 80%;
+	margin: auto;
+}
+.head{
+	text-align: center;
+	text-transform: uppercase;
+	margin: -50px 0;
+	margin-bottom: 10px;
+}
+.head p{
+	font-size: 18px;
+	margin-top: 5px;
+}
+textarea{
+	width: 98.5%;
+	height: 120px;
+	resize: none;
+	outline: none;
+	border: 2px solid #292C35;
+	border-radius:10px;	
+	background: #f5f5f5;
+	margin: 8px 0;
+	padding: 10px;
+	font-size: 18px;
+	position: relative;
+	transition: all 0.4s ease;
+}
+input {
+	width: 100%;
+	height: 35px;
+	outline: none;
+	border: 2px solid #292C35;
+	border-radius:10px;	
+	background: #f5f5f5;
+	margin: 8px 0;
+	padding: 10px;
+	font-size: 18px;
+	position: relative;
+	transition: all 0.4s ease;
+}
+input:hover{
+	border: 2.5px solid #4285f4;
+	transition: all 0.1s ease;
+}
+input:focus{
+	border: 2.5px solid #4285f4;
+}
+select{
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	-ms-appearance:none;
+	outline: 0;
+	border: 1!important;
+	appearance:none;
+	box-shadow: none;
+	background: #f5f5f5;
+}
+.inputs-3 select:hover{
+	border: 2.5px solid #4285f4;
+	transition: all 0.5s ease;
+}
+.inputs-3 select:focus{
+	background: #f5f5f5;
+	padding: 0 10px;
+}
+.inputs-3 select{
+	border: 2px solid #292C35;
+	border-radius: 10px;
+	padding: 0 15px;
+	margin: 8px 0;
+	font-size: 18px;
+	width: 49%;
+	height: 35px;
+	line-height: 25px;
+	cursor: pointer;
+}
+
+.inputs-7 select:hover{
+	border: 2.5px solid #4285f4;
+	transition: all 0.5s ease;
+}
+.inputs-7 select:focus{
+	background: #f5f5f5;
+	padding: 0 10px;
+}
+.inputs-7 select{
+	border: 2px solid #292C35;
+	border-radius: 10px;
+	padding: 0 15px;
+	margin: 8px 0;
+	font-size: 18px;
+	width: 49%;
+	height: 35px;
+	line-height: 25px;
+	cursor: pointer;
+}
+
+.inputs-8 select:hover{
+	border: 2.5px solid #4285f4;
+	transition: all 0.5s ease;
+}
+.inputs-8 select:focus{
+	background: #f5f5f5;
+	padding: 0 10px;
+}
+.inputs-8 select{
+	border: 2px solid #292C35;
+	border-radius: 10px;
+	padding: 0 15px;
+	margin: 8px 0;
+	font-size: 18px;
+	width: 49%;
+	height: 35px;
+	line-height: 25px;
+	cursor: pointer;
+}
+
+.inputs-10 select:hover{
+	border: 2.5px solid #4285f4;
+	transition: all 0.5s ease;
+}
+.inputs-10 select:focus{
+	background: #f5f5f5;
+	padding: 0 10px;
+}
+.inputs-10 select{
+	border: 2px solid #292C35;
+	border-radius: 10px;
+	padding: 0 15px;
+	margin: 8px 0;
+	font-size: 18px;
+	width: 49%;
+	height: 35px;
+	line-height: 25px;
+	cursor: pointer;
+}
+.inputs-11 select:hover{
+	border: 2.5px solid #4285f4;
+	transition: all 0.5s ease;
+}
+.inputs-11 select:focus{
+	background: #f5f5f5;
+	padding: 0 10px;
+}
+.inputs-11 select{
+	border: 2px solid #292C35;
+	border-radius: 10px;
+	padding: 0 15px;
+	margin: 8px 0;
+	font-size: 18px;
+	width: 49%;
+	height: 35px;
+	line-height: 25px;
+	cursor: pointer;
+}
+
+.inputs-12 select:hover{
+	border: 2.5px solid #4285f4;
+	transition: all 0.5s ease;
+}
+.inputs-12 select:focus{
+	background: #f5f5f5;
+	padding: 0 10px;
+}
+.inputs-12 select{
+	border: 2px solid #292C35;
+	border-radius: 10px;
+	padding: 0 15px;
+	margin: 8px 0;
+	font-size: 18px;
+	width: 49%;
+	height: 35px;
+	line-height: 25px;
+	cursor: pointer;
+}
+.inputs-13 select:hover{
+	border: 2.5px solid #4285f4;
+	transition: all 0.5s ease;
+}
+.inputs-13 select:focus{
+	background: #f5f5f5;
+	padding: 0 10px;
+}
+.inputs-13 select{
+	border: 2px solid #292C35;
+	border-radius: 10px;
+	padding: 0 15px;
+	margin: 8px 0;
+	font-size: 18px;
+	width: 49%;
+	height: 35px;
+	line-height: 25px;
+	cursor: pointer;
+}
+
+.inputs-1{
+	position: relative;
+}
+.searchblock{
+	position: relative;
+}
+._1{
+	position: absolute;
+	top:12px;
+	right: 30px;
+	font-size: 16px;
+	transition: all 0.3s ease;
+}
+._2{
+	position: absolute;
+	top:12px;
+	right: 70%;
+	font-size: 16px;
+	transition: all 0.3s ease;
+
+}
+._3{
+	position: absolute;
+	top:130px;
+	right:25%;
+	font-size: 16px;
+	transition: all 0.3s ease;
+	background: #f5f5f5;
+	padding: 0 10px;
+	font-weight: bold;
+}
+._4{
+	position: absolute;
+	top:140px;
+	right: 50.5%;
+	font-size: 16px;
+	transition: all 0.3s ease;
+}
+._5{
+	position: absolute;
+	top:185px;
+	right: 120px;
+	font-size: 16px;
+	transition: all 0.3s ease;
+}
+._6{
+	position: absolute;
+	top:185px;
+	right: 50.5%;
+	font-size: 16px;
+	transition: all 0.3s ease;
+}
+._7{
+	position: absolute;
+	top:185px;
+	right: 120px;
+	font-size: 16px;
+	transition: all 0.3s ease;
+}
+._8{
+	position: absolute;
+	top:185px;
+	right: 50.5%;
+	font-size: 16px;
+	transition: all 0.3s ease;
+}
+._9{
+	position: absolute;
+	top:185px;
+	right: 120px;
+	font-size: 16px;
+	transition: all 0.3s ease;
+}
+._10{
+	position: absolute;
+	top:185px;
+	right: 50.5%;
+	font-size: 16px;
+	transition: all 0.3s ease;
+}
+._10{
+	position: absolute;
+	top:185px;
+	right: 50.5%;
+	font-size: 16px;
+	transition: all 0.3s ease;
+}
+._11{
+	position: absolute;
+	top:185px;
+	right: 50.5%;
+	font-size: 16px;
+	transition: all 0.3s ease;
+}
+._12{
+	position: absolute;
+	transition: all 0.3s ease;
+	font-weight: bold;
+	top:540px;
+	right:46.5%;
+	font-size: 17px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	font-weight: bold;
+}
+._13{
+	position: absolute;
+	transition: all 0.3s ease;
+	font-weight: bold;
+	top:491px;
+	right:47%;
+	font-size: 17px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	font-weight: bold;
+}
+._14{
+	position: absolute;
+	transition: all 0.3s ease;
+	font-weight: bold;
+	top:491px;
+	right:47%;
+	font-size: 17px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	font-weight: bold;
+}
+._15{
+	position: absolute;
+	transition: all 0.3s ease;
+	font-weight: bold;
+	top:0px;
+	right:40%;
+	font-size: 17px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	font-weight: bold;
+}
+._16{
+	position: absolute;
+	transition: all 0.3s ease;
+	font-weight: bold;
+	top:0px;
+	right:40%;
+	font-size: 17px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	font-weight: bold;
+}
+._17{
+	position: absolute;
+	transition: all 0.3s ease;
+	font-weight: bold;
+	top:0px;
+	right:40%;
+	font-size: 17px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	font-weight: bold;
+}
+.inputs-9 input{
+	height: 100px;
+	resize: none;
+
+}
+input[type="date"]
+{
+	padding:0 10px;
+}
+input:focus + ._1,
+input:valid + ._1{
+	top: -5px;
+	right: 22%;
+	font-size: 16px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	z-index: 10;
+	font-weight: bold;
+}
+input:focus + ._2,
+input:valid + ._2{
+	top: -5px;
+	right: 70%;
+	font-size: 16px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	font-weight: bold;
+}
+input:focus + ._3,
+input:valid + ._3{
+	top:140px;
+	right:24%;
+	font-size: 16px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	font-weight: bold;
+}
+input:focus + ._4,
+input:valid + ._4{
+	top:130px;
+	right:65%;
+	font-size: 16px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	font-weight: bold;
+}
+input:focus + ._5,
+input:valid + ._5{
+	top:288px;
+	right:24.5%;
+	font-size: 16px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	font-weight: bold;
+}
+input:focus + ._6,
+input:valid + ._6{
+	top:285px;
+	right:65.5%;
+	font-size: 16px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	font-weight: bold;
+}
+input:focus + ._7,
+input:valid + ._7{
+	top:335px;
+	right:24.5%;
+	font-size: 16px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	font-weight: bold;
+}
+input:focus + ._8,
+input:valid + ._8{
+	top:335px;
+	right:63.7%;
+	font-size: 16px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	font-weight: bold;
+}
+input:focus + ._9,
+input:valid + ._9{
+	top:440px;
+	right:67%;
+	font-size: 16px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	font-weight: bold;
+}
+input:focus + ._10,
+input:valid + ._10{
+	top:490px;
+	right:47%;
+	font-size: 16px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	font-weight: bold;
+}
+input:focus + ._11,
+input:valid + ._11{
+	top:235px;
+	right:47%;
+	font-size: 17px;
+	font-weight: bold;
+	background: #f5f5f5;
+	padding: 0 10px;
+	font-weight: bold;
+}
+input:focus + ._12,
+input:valid + ._12{
+	top:245px;
+	right:40%;
+	font-size: 17px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	font-weight: bold;
+}	
+input:focus + ._13,
+input:valid + ._13{
+	top:490px;
+	right:67%;
+	font-size: 17px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	font-weight: bold;
+}
+input:focus + ._14,
+input:valid + ._14{
+	top:730px;
+	right:63.5%;
+	font-size: 17px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	font-weight: bold;
+}
+input:focus + ._16,
+input:valid + ._16{
+	top:780px;
+	right:27%;
+	font-size: 17px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	font-weight: bold;
+}
+input:focus + ._17,
+input:valid + ._17{
+	top:490px;
+	right:28%;
+	font-size: 17px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	font-weight: bold;
+}
+
+.inputs-1 input{
+	width:49%;
+}
+.inputs-2 input{
+	width: 49%;
+}
+.inputs-3 input{
+	width: 49%;
+}
+.inputs-4 input{
+	width: 49%;
+}
+.inputs-5 input{
+	width: 49%;
+}
+.inputs-6 input{
+	width: 49%;
+}
+.inputs-7 input{
+	width: 49%;
+}
+.inputs-8 input{
+	width: 49%;
+}
+.inputs-9 input{
+	width: 49%;
+}
+.inputs-10 input{
+	width: 49%;
+}
+.inputs-11 input{
+	width: 49%;
+}
+.inputs-12 input{
+	width: 49%;
+}
+.inputs-13 input{
+	width: 49%;
+}
+#Textaera{
+	width: 98.5%;
+}
+#AddOr{
+	width: 70%;
+	margin-right: 15%;
+	margin-top: 5px;
+	height: 45px;
+}
+button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 98.2%;
+	height: 40px;
+	background:#292C35;
+	color: #f5f5f5;
+	border: none;
+	cursor: pointer;
+	border-radius: 20px;
+	font-size: 20px;
+	transition: 0.2s;
+}
+button:hover{
+	font-size:21px;
+}
+
+.searchblock{
+	margin-top: 10px;
+}
+#search{
+	margin-right: 25%;
+	height:35px;
+	font-size: 15px;
+	font-weight: 500;
+	width: 50%;
+}
+.btnsearch{
+	display: flex;
+	justify-content: space-between;
+	width: 98.2%;
+}
+.btnsearch button{
+	width: 45%;
+	margin-top: 3px;
+}
+table{
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+}
+table button{
+	border-radius: 20px;
+	height: 30px;
+	font-size: 18px;
+}
+table th{
+	background: #292C35;
+	color: #f5f5f5;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: 'Ubuntu',sans-serif;
+}
+th,td{
+	padding: 5px;
+	border: 1px solid #292C35;
+}
+@media (max-width: 1024px){
+	.nav{
+		width: 10%;
+		right: -300px;	
+	}
+	.nav.active{
+		width: 8%; 	
+		right:0;
+	}
+	.main{
+	  width: 100%;
+	  right:0;
+	}
+	.main.active{
+		left: 300px;
+	}
+	.crud{
+		width: 80%;
+	}
+	table th{
+		display: none;
+	}
+	table tr{
+		margin-bottom: 15px;
+	}
+	tr td{
+		border: 1px solid #292C35;
+	}
+	table tbody tr td{
+		position: relative;
+		display:block;
+		width: 100%;
+		text-align: left;
+	}
+	table tbody tr td button{
+		width: 20%;
+		position: relative;
+		right: 520px;
+		font-size: 18px;
+	}
+	table td::before{
+		content: attr(data-label);
+		position: absolute;
+		right: 0;
+		width: 50%;
+		padding-right: 10PX;
+		font-size: 20px;
+		font-weight: 500;
+		text-align: right;
+	}
+}
+@media (max-width: 800px){
+	.nav{
+		width: 15%;
+		right: -300px;
+		z-index: 1000;
+	}
+	.nav.active{
+		width: 12%; 	
+		right: 0;
+	}
+	.main{
+		width:100%;
+		margin-right:10px;
+		right:0;
+	}
+	.main.active{
+		left:500px;
+	}
+	.crud{
+		width: 80%;
+	}
+	button{
+		font-size: 18px;
+		font-weight: 500;
+	}
+	button:hover{
+	   font-size:20px;
+	   font-weight: 500;
+    }
+	.btnsearch{
+	display: block;
+	margin: 2px 0;
+	margin-right: 27%;
+	width: 100%;
+    }
+    .btnsearch button{
+	width: 70%;
+	margin-top: 3px;
+	margin-right: -48px;
+    }
+    .inputs-1 input{
+    	width: 100%;
+    }
+    .inputs-2 input{
+    	width:100%;
+    }
+    .inputs-3 input{
+    	width: 100%;
+    }
+    .inputs-4 input{
+    	width: 100%;
+    }
+    .inputs-5 input{
+    	width: 100%;
+    }
+    .inputs-6 input{
+		width: 49%;
+	}
+	.inputs-7 input{
+		width: 100%;
+	}
+	.inputs-8 input{
+		width: 100%;
+	}
+	.inputs-9 input{
+		width: 100%;
+	}
+	.inputs-10 input{
+		width: 49%;
+	}
+	.inputs-11 input{
+		width: 49%;
+	}
+    #Textaera{
+	width: 98.5%;
+    }
+    #search{
+    	width: 100%;
+    	margin-right: 0;
+    }
+    .nav ul li{
+    	border-top-right-radius:100%;
+	    border-bottom-right-radius: 100%;
+    }
+    .nav ul li:hover a::before,
+    .nav ul li.hovered a::before
+    {
+    	width: 0;
+	    height:0;
+	    box-shadow: -35px  35px 0 10px #f5f5f5;
+    }
+    .nav ul li:hover a::after,
+    .nav ul li.hovered a::after
+    {
+    	width: 0;
+	    height: 0;
+	    box-shadow: -35px  -35px 0 10px #f5f5f5;
+    }
+    .nav ul li a{
+    	padding-bottom: 10px;
+    	align-items: center;
+    	margin-right: -10px;
+    }
+    input:hover{
+    	transition: all 0.1s ease;
+    	border: 2.5px solid #4285f4
+    }
+    input:focus + ._1,
+    input:valid + ._1{
+	top:-5px;
+	right: 43%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+
+    }
+    ._3{
+    	right: 40%;
+    }
+    input:focus + ._3,
+     input:valid + ._3{
+	top: 172px;
+	right: 40%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._4,
+     input:valid + ._4{
+	top: 218px;
+	right: 45%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._5,
+     input:valid + ._5{
+	top: 260px;
+	right: 43%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._6,
+     input:valid + ._6{
+	top: 305px;
+	right: 50%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._7,
+     input:valid + ._7{
+	top: 350px;
+	right: 41%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._8,
+     input:valid + ._8{
+	top: 395px;
+	right: 39%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+     input:focus + ._9,
+     input:valid + ._9{
+	top: 440px;
+	right: 45%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._10,
+     input:valid + ._10{
+	top: 485px;
+	right: 39%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._11,
+     input:valid + ._11{
+	top: 575px;
+	right: 42.6%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._12,
+     input:valid + ._12{
+	top: 0px;
+	right: 29%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._13,
+     input:valid + ._13{
+	top: 440px;
+	right: 45%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._14,
+     input:valid + ._14{
+	top: 485px;
+	right: 39%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._15,
+     input:valid + ._15{
+	top: 350px;
+	right: 26%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._16,
+     input:valid + ._16{
+	top: 350px;
+	right: 65%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._17,
+     input:valid + ._17{
+	top: 395px;
+	right: 24.8%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._18,
+     input:valid + ._18{
+	top: 395px;
+	right: 65%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._19,
+     input:valid + ._19{
+	top: 440px;
+	right: 27%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._20,
+     input:valid + ._20{
+	top: 440px;
+	right: 65%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._21,
+     input:valid + ._21{
+	top: 485px;
+	right: 26.5%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._22,
+     input:valid + ._22{
+	top: 485px;
+	right: 66.5%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._23,
+	input:valid + ._23{
+	top:530px;
+	right:25%;
+	font-size: 17px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	}
+	input:focus + ._24,
+	input:valid + ._24{
+	top:530px;
+	right:63.5%;
+	font-size: 17px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	}
+    .notifiction{
+	position: relative;
+	width: 60%;
+    }
+    .notifiction ion-icon{
+	position: absolute;
+	top: -12px;
+	left: 0px;
+	font-size: 25px;
+    }
+	table tbody tr td{
+		display: grid;
+		justify-content: flex-end;
+		align-items: center;
+		padding: 15px 5px;
+		width: 100%;
+	}
+	table tbody tr td button{
+		width: 100%;
+		position: relative;
+		padding: 0 20px;
+		right: 0;
+		font-size: 18px;
+	}
+}
+@media (max-width: 844px){
+	.nav{
+		width: 15%;
+		right: -300px;
+		z-index: 1000;
+	}
+	.nav.active{
+		width: 8%; 	
+		right: 0;
+	}
+	.main{
+		width:100%;
+		margin-right:10px;
+		right:0;
+	}
+	.main.active{
+		left:500px;
+	}
+	.crud{
+		width: 80%;
+	}
+	button{
+		font-size: 18px;
+		font-weight: 400;
+	}
+	button:hover{
+	   font-size:20px;
+	   font-weight: 500;
+    }
+	.btnsearch{
+	display: block;
+	margin: 2px 0;
+	margin-right: 27%;
+	width: 100%;
+    }
+    .btnsearch button{
+	width: 50%;
+	margin-top: 3px;
+	margin-right: -5px;
+    }
+    .inputs-1 input{
+    	width: 49%;
+    }
+    .inputs-2 input{
+    	width:49%;
+    }
+    .inputs-3 input{
+    	width: 49%;
+    }
+    .inputs-4 input{
+    	width: 49%;
+    }
+    .inputs-5 input{
+    	width: 49%;
+    }
+    .inputs-6 input{
+    	width: 49%;
+    }
+    .inputs-7 input{
+    	width: 49%;
+    }
+    .inputs-8 input{
+    	width: 49%;
+    }
+    .inputs-9 input{
+    	width: 49%;
+    }
+    .inputs-10 input{
+		width: 49%;
+	}
+	.inputs-11 input{
+		width: 49%;
+	}
+    #textaera{
+	width:100%;
+    }
+    #search{
+    	width: 100%;
+    	margin-right: 0;
+    }
+    .nav ul li{
+    	border-top-right-radius:100%;
+	    border-bottom-right-radius: 100%;
+    }
+    .nav ul li:hover a::before,
+    .nav ul li.hovered a::before
+    {
+    	width: 0;
+	    height:0;
+	    box-shadow: -35px  35px 0 10px #f5f5f5;
+    }
+    .nav ul li:hover a::after,
+    .nav ul li.hovered a::after
+    {
+    	width: 0;
+	    height: 0;
+	    box-shadow: -35px  -35px 0 10px #f5f5f5;
+    }
+    .nav ul li a{
+    	padding-bottom: 10px;
+    	align-items: center;
+    	margin-right: -10px;
+    }
+    input:hover{
+    	transition: all 0.1s ease;
+    	border: 2.5px solid #4285f4
+    }
+    input:focus + ._1,
+    input:valid + ._1{
+	top:-5px;
+	right: 19%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+
+    }
+    input:focus + ._2,
+    input:valid + ._2{
+	top: -5px;
+	right: 68%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    ._3{
+    	right: 22%;
+    }
+    input:focus + ._3,
+     input:valid + ._3{
+	top: 126px;
+	right: 20%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._4,
+     input:valid + ._4{
+	top: 126px;
+	right: 64.5%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._5,
+     input:valid + ._5{
+	top: 170px;
+	right:27.2%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._6,
+     input:valid + ._6{
+	top: 170px;
+	right: 65.8%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._7,
+     input:valid + ._7{
+	top: 216px;
+	right: 26.2%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._8,
+     input:valid + ._8{
+	top: 216px;
+	right: 65.2%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+     input:focus + ._9,
+     input:valid + ._9{
+	top: 262px;
+	right: 26.5%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._10,
+     input:valid + ._10{
+	top: 262px;
+	right: 66.3%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._11,
+     input:valid + ._11{
+	top: 575px;
+	right: 45.5%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._12,
+     input:valid + ._12{
+	top: 0px;
+	right: 39%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+     input:focus + ._13,
+     input:valid + ._13{
+	top: 305px;
+	right: 26.2%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._14,
+     input:valid + ._14{
+	top: 305px;
+	right: 65.5%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._15,
+     input:valid + ._15{
+	top: 350px;
+	right: 26%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._16,
+     input:valid + ._16{
+	top: 350px;
+	right: 64.5%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._17,
+     input:valid + ._17{
+	top: 395px;
+	right: 24.8%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._18,
+     input:valid + ._18{
+	top: 395px;
+	right: 65%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._19,
+     input:valid + ._19{
+	top: 440px;
+	right: 27%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._20,
+     input:valid + ._20{
+	top: 440px;
+	right: 65%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._21,
+     input:valid + ._21{
+	top: 485px;
+	right: 26.5%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._22,
+     input:valid + ._22{
+	top: 485px;
+	right: 66%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._23,
+	input:valid + ._23{
+	top:530px;
+	right:25%;
+	font-size: 17px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	}
+	input:focus + ._24,
+	input:valid + ._24{
+	top:530px;
+	right:63.5%;
+	font-size: 17px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	}
+    .notifiction{
+	position: relative;
+	width: 60%;
+    }
+    .notifiction ion-icon{
+	position: absolute;
+	top: -12px;
+	left: 0px;
+	font-size: 25px;
+    }
+    table tbody tr td{
+    	display: grid;
+		justify-content: flex-start;
+		align-items: center;
+		padding: 15px 5px;	
+		width: 100%;
+		direction: ltr;
+    }
+    table tbody tr td button{
+		width: 100%;
+		position: relative;
+		padding: 0 20px;
+		right: 0;
+		font-size: 18px;
+		direction: ltr;
+	}
+}
+@media (max-width: 412px){
+	.nav{
+		width: 15%;
+		right: -300px;
+		z-index: 1000;
+	}
+	.nav.active{
+		width: 12%; 	
+		right: 0;
+	}
+	.main{
+		width:100%;
+		margin-right:10px;
+		right:0;
+	}
+	.main.active{
+		left:500px;
+	}
+	.crud{
+		width: 80%;
+	}
+	button{
+		font-size: 18px;
+		font-weight: 500;
+	}
+	button:hover{
+	   font-size:20px;
+	   font-weight: 500;
+    }
+	.btnsearch{
+	display: block;
+	margin: 2px 0;
+	margin-right: 27%;
+	width: 100%;
+    }
+    .btnsearch button{
+	width: 70%;
+	margin-top: 3px;
+	margin-right: -40px;
+    }
+    .inputs-1 input{
+    	width: 99%;
+    }
+    .inputs-2 input{
+    	width:99%;
+    }
+    .inputs-3 input{
+    	width: 99%;
+    }
+    .inputs-4 input{
+    	width: 49%;
+    }
+    .inputs-5 input{
+    	width: 99%;
+    }
+    .inputs-6 input{
+    	width: 49%;
+    }
+    .inputs-7 input{
+    	width: 49%;
+    }
+    .inputs-8 input{
+    	width: 99%;
+    }
+    .inputs-9 input{
+    	width: 99%;
+    }
+    .inputs-10 input{
+    	width: 49%;
+    }
+    .inputs-11 input{
+    	width: 49%;
+    }
+
+    #textaera{
+	width: 99%;
+    }
+    #search{
+    	width: 100%;
+    	margin-right: 0;
+    }
+    .nav ul li{
+    	border-top-right-radius:100%;
+	    border-bottom-right-radius: 100%;
+    }
+    .nav ul li:hover a::before,
+    .nav ul li.hovered a::before
+    {
+    	width: 0;
+	    height:0;
+	    box-shadow: -35px  35px 0 10px #f5f5f5;
+    }
+    .nav ul li:hover a::after,
+    .nav ul li.hovered a::after
+    {
+    	width: 0;
+	    height: 0;
+	    box-shadow: -35px  -35px 0 10px #f5f5f5;
+    }
+    .nav ul li a{
+    	padding-bottom: 10px;
+    	align-items: center;
+    	margin-right: -10px;
+    }
+    select{
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	-ms-appearance:none;
+	outline: 0;
+	border: 1!important;
+	appearance:none;
+	box-shadow: none;
+	background: #f5f5f5;
+	}
+	.inputs-3 select:hover{
+	border: 2.5px solid #4285f4;
+	transition: all 0.5s ease;
+	}
+	.inputs-3 select:focus{
+	background: #f5f5f5;
+	padding: 0 10px;
+	}
+	.inputs-3 select{
+	border: 2px solid #292C35;
+	border-radius: 10px;
+	padding: 0 10px;
+	font-size: 18px;
+	width: 99%;
+	height: 35px;
+	line-height: 25px;
+	cursor: pointer;
+	}
+    input:hover{
+    	transition: all 0.1s ease;
+    	border: 2.5px solid #4285f4
+    }
+    input:focus + ._1,
+    input:valid + ._1{
+	top:-5px;
+	right: 38.5%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+
+    }
+    input:focus + ._2,
+    input:valid + ._2{
+	top: 42px;
+	right: 38%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    ._3{
+    	top: 172px;
+    	right: 35%;
+    }
+    input:focus + ._3,
+     input:valid + ._3{
+	top: 172px;
+	right: 35%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._4,
+     input:valid + ._4{
+	top: 218px;
+	right: 39.5%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._5,
+     input:valid + ._5{
+	top: 260px;
+	right: 43%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._6,
+     input:valid + ._6{
+	top: 299px;
+	right: 43%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._7,
+     input:valid + ._7{
+	top: 340px;
+	right: 22%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._8,
+     input:valid + ._8{
+	top: 340px;
+	right: 62%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+     input:focus + ._9,
+     input:valid + ._9{
+	top: 385px;
+	right: 43.5%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._10,
+     input:valid + ._10{
+	top: 430px;
+	right: 44.2%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._11,
+     input:valid + ._11{
+	top: 835px;
+	right: 42%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._12,
+     input:valid + ._12{
+	top: 0px;
+	right: 26%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._13,
+     input:valid + ._13{
+	top: 475px;
+	right: 22%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._14,
+     input:valid + ._14{
+	top: 475px;
+	right: 61.5%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._15,
+     input:valid + ._15{
+	top: 520px;
+	right: 22%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._16,
+     input:valid + ._16{
+	top: 520px;
+	right: 60%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._17,
+     input:valid + ._17{
+	top: 565px;
+	right: 40%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._18,
+     input:valid + ._18{
+	top: 610px;
+	right: 42%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._19,
+     input:valid + ._19{
+	top: 655px;
+	right: 45%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._20,
+     input:valid + ._20{
+	top: 700px;
+	right: 40%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._21,
+     input:valid + ._21{
+	top: 745px;
+	right: 23%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._22,
+     input:valid + ._22{
+	top: 745px;
+	right: 63%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._23,
+	input:valid + ._23{
+	top:790px;
+	right:20.5%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	}
+	input:focus + ._24,
+	input:valid + ._24{
+	top:790px;
+	right:59%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	}
+    .notifiction{
+	position: relative;
+	width: 60%;
+    }
+    .notifiction ion-icon{
+	position: absolute;
+	top: -12px;
+	left: 0px;
+	font-size: 25px;
+    }
+    table tbody tr td{
+    	display: grid;
+		justify-content: flex-start;
+		align-items: center;
+		padding: 15px 5px;	
+		width: 100%;
+		direction: ltr;
+    }
+    table tbody tr td button{
+		width: 100%;
+		position: relative;
+		padding: 0 20px;
+		right: 0;
+		font-size: 18px;
+		direction:ltr;
+	}
+}

@@ -1,0 +1,159 @@
+﻿@model ERP.Models.Pe
+
+@{
+    ViewData["Title"] = "تفاصيل مرجع";
+}
+@section CssFiles{
+    <link href="~/css/Pe/Create.css" rel="stylesheet" />
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+}
+<h1 style="font-size:40px;">التفاصيل</h1>
+<hr />
+<br />
+@*Go index is function in site.js *@
+<form asp-action="Index" id="getBackForm">
+    <span class="to-top" onclick="GoIndex()">
+        <i class='bx bx-arrow-back'></i>
+    </span>
+</form>
+<div class="crud">
+    <form asp-action="Edit">
+        <div class="inputs" id="EditInput">
+            <div class="inputs-1">
+                <input type="hidden" asp-for="IdPe" />
+                <div class="box-left">
+                    <div style="text-align:start">
+                        <span>الاسم</span>
+                    </div>
+                    <input asp-for="NaPe" type="text" placeholder="الاسم" readonly>
+                    <span asp-validation-for="NaPe" class="text-danger right"></span>
+                </div>
+
+                <div class="box-right">
+                    <div style="text-align:start">
+                        <span>الموبايل</span>
+                    </div>
+                    <input asp-for="PhoPe" class="form-control" style="direction:ltr" type="text" placeholder="الموبايل" readonly/>
+                    <span asp-validation-for="PhoPe" class="text-danger left"></span>
+                </div>
+
+
+            </div>
+
+            <div class="inputs-3">
+                <div class="box-start">
+                    <div style="text-align:start">
+                        <span>المدينة</span>
+                    </div>
+                    <input asp-for="CiPe" type="text" placeholder="المدينة" readonly>
+                    <span asp-validation-for="CiPe" class="text-danger left"></span>
+
+                </div>
+                <div class="box-center">
+                    <div style="text-align:start">
+                        <span>العمل</span>
+                    </div>
+                    <input asp-for="JoPe" type="text" placeholder="العمل" readonly>
+                    <span asp-validation-for="JoPe" class="text-danger right"></span>
+                </div>
+
+                <div class="box-end">
+                    <div style="text-align:start">
+                        <span>الجنسية</span>
+                    </div>
+                    <input asp-for="NatPe" type="text" placeholder="الجنسية" readonly>
+                    <span asp-validation-for="NatPe" class="text-danger right"></span>
+
+                </div>
+            </div>
+
+            <div class="inputs-4">
+                <div class="box-left">
+                    <div style="text-align:start">
+                        <span>تاريخ اخر تواصل</span>
+                    </div>
+                    <input asp-for="DaEnPe" class="form-control" type="date"  readonly/>
+                    <span asp-validation-for="DaEnPe" class="text-danger right"></span>
+                </div>
+
+                <div class="box-right">
+                    <div style="text-align:start">
+                        <span>تاريخ التعرف</span>
+                    </div>
+                    <input asp-for="DaPe" type="date" placeholder="تاريخ التعرف" readonly>
+                    <span asp-validation-for="DaPe" class="text-danger left"></span>
+                </div>
+            </div>
+
+            <div class="inputs-5">
+                <div class="box-left">
+                    <div style="text-align:start">
+                        <span>الشهادة العلمية</span>
+                    </div>
+                    <input asp-for="CerPe" type="text" placeholder="الشهادة العلمية" readonly>
+                    <span asp-validation-for="CerPe" class="text-danger right"></span>
+                </div>
+
+                <div class="box-right">
+                    <div style="text-align:start">
+                        <span>البريد الالكتروني</span>
+                    </div>
+                    <input asp-for="EmPe" type="text" style="direction:ltr" placeholder="البريد الإلكتروني" readonly>
+                    <span asp-validation-for="EmPe" class="text-danger left"></span>
+                </div>
+            </div>
+
+            <div class="inputs-6">
+                <div class="box-start">
+                    <div style="text-align:start">
+                        <span>النوع</span>
+                    </div>
+                    <select asp-for="TyPe" asp-items="ViewBag.TyPe" disabled></select>
+                    <span asp-validation-for="TyPe" class="text-danger left"></span>
+                </div>
+
+                <div class="box-center">
+                    <div style="text-align:start">
+                        <span>المعرف</span>
+                    </div>
+                    <select asp-for="Id1Pe" class="form-control" asp-items="ViewBag.Id1Pe"disabled><option selected="selected" disabled="disabled">المعرف</option></select>
+                    <span asp-validation-for="Id1Pe" class="text-danger right"></span>
+                </div>
+
+
+                <div class="box-end">
+                    <div style="text-align:start">
+                        <span>التصنيف</span>
+                    </div>
+                    <select asp-for="IdPeCat" class="form-control" asp-items="ViewBag.IdPeCat" disabled></select>
+                    <span asp-validation-for="IdPeCat" class="text-danger left"></span>
+                </div>
+            </div>
+
+            <div class="inputs-7">
+                <div class="box-right" id="box-right">
+                    <div style="text-align:start">
+                        <span>طريقة التعارف</span>
+                    </div>
+                    <input asp-for="MetPe" class="form-control" type="text" placeholder="طريقة التعارف" readonly>
+                    <span asp-validation-for="MetPe" class="text-danger left"></span>
+                </div>
+                <input asp-for="DaNpe" class="form-control" type="hidden" value="@Model.DaNpe" placeholder="تاريخ تسجيل القيد" />
+
+            </div>
+
+            <div class="inputs-8">
+                <div class="box-textarea" id="box-textarea">
+                    <div style="text-align:center;align-self:center ">
+                        <span>الملاحظات</span>
+                    </div>
+                    <textarea asp-for="NotPe" placeholder="الملاحظات" readonly></textarea>
+                    <span asp-validation-for="NotPe" class="text-danger"></span>
+                </div>
+            </div>
+            </div>
+</form>
+</div>
+
+

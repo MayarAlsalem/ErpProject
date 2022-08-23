@@ -1,0 +1,128 @@
+﻿.DivSearch {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input {
+    width: 80%;
+    height: 35px;
+    outline: none;
+    border: 2px solid #292C35;
+    border-radius: 10px;
+    background-color: transparent !important;
+    margin: 8px 0;
+    padding: 10px;
+    font-size: 18px;
+    position: relative;
+    transition: all 0.4s ease;
+}
+
+    input:hover {
+        border: 2.5px solid #4285f4;
+        transition: all 0.1s ease;
+    }
+.Div-box{
+    position:center;
+    display:inline-block;
+    /*align-items:center;
+    justify-content:space-between;*/
+}
+.box {
+    position:relative;
+    max-width: 400px;
+    width: 100%;
+    
+}
+    .box .box-search {
+        position: relative;
+        height: 50px;
+        border-radius: 30px;
+        max-width:40px;
+        transition:all 0.6s ease;
+    }
+#check:checked ~ .box-search{
+    max-width:380px;
+}
+.box-search input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    text-align: center;
+    outline: none;
+    top: -11px;
+    background-color: transparent !important;
+}
+.box-search .icon {
+    position: absolute;
+    right: -5px;
+    top: -3px;
+    width: 55px;
+    height: inherit;
+    background: #292C35;
+    color: #e7e7e7;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    height: 55px;
+    border-radius: 50%;
+}
+#check:checked ~ .box-search .icon {
+    height: inherit;
+    background: #292C35;
+    color: #e7e7e7;
+    width: 60px;
+    border-radius: 0 25px 25px 0;
+}
+#check
+{
+    display:none;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    outline: 0;
+    border: 1 !important;
+    appearance: none;
+    box-shadow: none;
+    background: #e7e7e7;
+    text-align: center;
+    border-radius: 5px;
+    min-width: 133px;
+}
+.select {
+    width: 100% !important;
+    max-width: 400px !important;
+    min-width: 222px !important;
+    color: #292c35 !important;
+    border-radius: 10px !important;
+    border: 2px solid #292c35 !important;
+}
+
+#getBackForm {
+    position: absolute;
+    width: 5%;
+    right: 15px;
+    bottom: 20px;
+}
+
+.to-top {
+    position: fixed;
+    background: #292C35;
+    bottom: 3%;
+    color: #808080;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.to-top:hover {
+     color: #fff;
+}

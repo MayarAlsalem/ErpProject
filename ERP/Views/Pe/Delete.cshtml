@@ -1,0 +1,111 @@
+﻿@model ERP.Models.Pe
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Pe</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NaPe)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NaPe)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NatPe)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NatPe)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CiPe)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CiPe)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.JoPe)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.JoPe)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PhoPe)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PhoPe)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NotPe)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NotPe)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DaPe)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DaPe)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CerPe)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CerPe)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.EmPe)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EmPe)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DaNpe)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DaNpe)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Id1Pe)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Id1Pe)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MetPe)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MetPe)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DaEnPe)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DaEnPe)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TyPe)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TyPe)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IdPeCatNavigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IdPeCatNavigation.PeCat1)
+        </dd class>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="IdPe" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

@@ -1,0 +1,27 @@
+﻿a {
+    cursor: pointer;
+    color: #292c35;
+}
+.btndark {
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    font-size: 22px;
+    font-weight:600;
+    display: inline-flex;
+    border-radius: 10px;
+    border: 1px solid #292c35;
+    color: #292c35;
+}
+.btnlarge {
+    padding: 10px 20px;
+}
+.btnmedium {
+    margin: 5px;
+    padding: 1px 10px;
+}
+.btndark:hover {
+    background-color: #1a1c22;
+    color: #e7e7e7;
+}

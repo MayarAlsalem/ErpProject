@@ -1,0 +1,1545 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Ubuntu:wght@400;500;700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Sakkal Majalla' ,sans-serif !important;
+}
+body{
+
+	min-height: 100vh;
+	overflow: auto;
+	transition: background 0.3s linear;
+	background: #e7e7e7;
+
+}
+body.dark {
+	background-color: #292C35;
+}
+body.dark .main 
+{
+color: #fff;
+}
+	body.dark .nav {
+		background: #e7e7e7;
+		border-right: 10px solid #e7e7e7;
+	}
+body.dark .nav ul li:hover,
+.nav ul li.hovered{
+	background: #292C35;
+}
+	body.dark .nav ul li:hover a,
+	.nav ul li.hovered a {
+		color: #e7e7e7;
+	}
+body.dark .search label  ion-icon{
+	color: #292C35;
+}
+body.dark .nav ul li a{
+	color: #292C35;
+}
+body.dark .nav ul li:hover a::before,
+.nav ul li.hovered a::before{
+	box-shadow: -35px  35px 0 10px #292C35;
+}
+body.dark .nav ul li:hover a::after,
+.nav ul li.hovered a::after{
+	box-shadow: -35px -35px 0 10px #292C35;
+}
+body.dark .nav ul li:nth-child(1) a img{
+	filter: brightness(0);
+}
+	body.dark button {
+		color: #292C35;
+		background: #e7e7e7;
+		font-weight: 500;
+		font-size: 18px;
+	}
+body.dark button:hover{
+	font-size: 20px;
+}
+	body.dark input {
+		color: #e7e7e7;
+		background: #292C35;
+		border: 2px solid #e7e7e7;
+	}
+	body.dark select {
+		border: 2px solid #e7e7e7;
+		background: #292C35;
+		color: #e7e7e7;
+		border-radius: 10px;
+	}
+		body.dark select:focus {
+			border: 2px solid #e7e7e7;
+			background: #292C35;
+			color: #e7e7e7;
+			border-radius: 10px;
+		}
+body.dark input:focus{
+	border: 2.5px solid #4285f4;
+}
+body.dark .inputs-1 span{
+	background: #292C35;
+	border-radius: 20px;
+}
+body.dark .inputs-2 span{
+	background: #292C35;
+	border-radius: 20px;
+}
+body.dark .inputs-3 span{
+	background: #292C35;
+	border-radius: 20px;
+}
+body.dark .inputs-4 span{
+	background: #292C35;
+	border-radius: 20px;
+}
+body.dark .inputs-5 span{
+	background: #292C35;
+	border-radius: 20px;
+}
+body.dark .inputs span{
+	background: #292C35;
+	border-radius: 20px;
+}
+body.dark .outputs span{
+	background: #292C35;
+	border-radius: 20px;
+}
+body.dark input:hover{
+    transition: all 0.1s ease;
+    border: 2.5px solid #4285f4
+}
+	body.dark .notifiction ion-icon {
+		color: #e7e7e7;
+	}
+	body.dark tr td {
+		border-bottom: 1px solid #e7e7e7;
+	}
+	body.dark table th {
+		background: #e7e7e7;
+		color: #292C35;
+	}
+.container{
+	position: relative;
+	width: 100%;
+	direction: rtl;
+}
+.nav{
+	position: fixed;
+	width: 20%;
+	height: 100%;
+	background: #292C35;
+	border-right:10px solid #292C35;
+	transition: 0.5s;
+	overflow: hidden;
+	z-index: 1000;
+}
+.nav.active{
+	width:6%;
+}
+.nav ul{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+}
+.nav ul li{
+	position: relative;
+	width: 100%;
+	list-style: none;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+	.nav ul li:hover,
+	.nav ul li.hovered {
+		background: #e7e7e7;
+	}
+.nav ul li:nth-child(1){
+	margin-top: 20px;
+	margin-right: -5px;
+	margin-bottom:35px;
+	pointer-events: none;
+	position: center;
+}
+	.nav ul li a {
+		position: relative;
+		display: inline-block;
+		width: 100%;
+		display: flex;
+		text-decoration: none;
+		color: #e7e7e7;
+	}
+.nav ul li:hover a,
+.nav ul li.hovered a
+{
+	color: #292C35;
+}
+.nav ul li a .icon{
+	position: relative;
+	display:inline-block;
+	min-width: 60px;
+	height: 50px;
+	line-height: 73px;
+	text-align: center;
+
+}
+.nav ul li a .icon ion-icon{
+	font-size: 1.5em;
+}
+.nav ul li a .title{
+	position: relative;
+	font-size: 20px;
+	display: block;
+	padding: 0 20px;
+	height: 60px;
+	line-height: 60px;
+	text-align: start;
+	white-space: nowrap;
+}
+/*curve outside*/
+	.nav ul li:hover a::before,
+	.nav ul li.hovered a::before {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: -50px;
+		width: 50px;
+		height: 50px;
+		background: transparent;
+		border-radius: 50%;
+		box-shadow: -35px 35px 0 10px #e7e7e7;
+		pointer-events: none;
+	}
+	.nav ul li:hover a::after,
+	.nav ul li.hovered a::after {
+		content: '';
+		position: absolute;
+		left: 0;
+		bottom: -50px;
+		width: 50px;
+		height: 50px;
+		background: transparent;
+		border-radius: 50%;
+		box-shadow: -35px -35px 0 10px #e7e7e7;
+	}
+/*     main          */
+.main{
+	position: absolute;
+	width: calc(100% - 20%);
+	right:20%;
+	min-height: 100vh;
+	transition: 0.5s;
+}
+.main.active{
+	width: calc(100% - 6%);
+	right:6%;
+}
+.topbar{
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:0 10px;
+}
+.toggle{
+	position: relative;
+	width: 60px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	font-size: 2.5em;
+	cursor: pointer;
+}
+
+.crud{
+	width: 85%;
+	margin: auto;
+}
+.head{
+	text-align: center;
+	text-transform: uppercase;
+	margin: -50px 0;
+	margin-bottom: 10px;
+}
+.head p{
+	font-size: 18px;
+	margin-top: 5px;
+}
+textarea {
+	width: 100%;
+	height:80px;
+	resize: none;
+	outline: none;
+	border: 2px solid #292C35;
+	border-radius: 10px;
+	background: #e7e7e7;
+	margin: 8px 0;
+	padding: 10px;
+	font-size: 20px;
+	position: relative;
+	transition: all 0.4s ease;
+	font-size: 22px;
+}
+	textarea::placeholder {
+		color: #292C35;
+		opacity: .9;
+		font-size: 20px;
+		/*font-weight:600;*/
+	}
+.inputs span {
+	color: #5a5a5a;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+input {
+	width: 100%;
+	height: 35px;
+	outline: none;
+	border: 2px solid #292C35;
+	border-radius: 10px;
+	background: #e7e7e7;
+	margin: 8px 0;
+	padding: 10px;
+	font-size: 20px;
+	position: relative;
+	transition: all 0.4s ease;
+	text-align: center;
+	font-family: 'Sakkal Majalla',sans-serif;
+	font-size: 20px;
+	/*font-weight: 600;*/
+}
+	input::placeholder {
+		color: #292C35;
+		opacity:.9;
+		font-size: 20px;
+		/*font-weight: 600;*/
+	}
+input:hover{
+	border: 2.5px solid #4285f4;
+	transition: all 0.1s ease;
+}
+input:focus{
+	border: 2.5px solid #4285f4;
+}
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	outline: 0;
+	border: 1 !important;
+	appearance: none;
+	box-shadow: none;
+	background: #e7e7e7;
+	text-align: center;
+}
+.inputs .inputs-1 .box-right .text-danger {
+	color: red !important;
+	position: relative;
+}
+.box-left {
+	display: inline-block;
+	width: 49%;
+	height:100%;
+	/*padding: 10px 10px;*/
+}
+.box-right {
+	display: inline-block;
+	width: 49%;
+	height: 100%;
+	/*	padding: 10px 10px;*/
+}
+.box-start, .box-center {
+	display: inline-block;
+	width: 33%;
+	height: 100%;
+	padding: 0 0 0 5px;
+}
+
+.box-end {
+	display: inline-block;
+	width: 33%;
+	height: 100%;
+	padding: 0 5px 0 0;
+}
+#EditInput .box-right{
+	display: flex;
+/*	width: 49%;*/
+	align-items: center;
+	justify-content: center;
+	white-space: nowrap;
+	height: 100%;
+}
+
+#EditInput .box-left {
+	display: flex;
+	width: 49%;
+	align-items: center;
+	justify-content: center;
+	white-space: nowrap;
+	height: 100%;
+}
+
+#EditInput .box-start, .box-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40%;
+	height: 100%;
+	padding: 0;
+}
+#EditInput .box-end {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40%;
+	height: 100%;
+	padding: 0;
+}
+#EditInput span{
+	margin-left:10px;
+}
+
+#EditInput .inputs-7{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+#EditInput #box-textarea{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.inputs-6 .box-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.inputs-7 .box-right {
+	width: 100%;
+}
+.right {
+	display:block;
+}
+.left {
+	display: block;
+	display: flex;
+	justify-content: space-between;
+}
+.inputs-1 {
+	display: flex;
+	justify-content: space-between;
+}
+.inputs-2 {
+	display: flex;
+	justify-content: space-between;
+}
+.inputs-3 {
+	display: flex;
+	justify-content: space-between;
+}
+.inputs-4 {
+	display: flex;
+	justify-content: space-between;
+}
+.inputs-5 {
+	display: flex;
+	justify-content: space-between;
+}
+.inputs-6 {
+	display: flex;
+	justify-content: space-between;
+	align-items:center !important;
+}
+.inputs-7 {
+	display: flex;
+	justify-content: space-between;
+	
+}
+select{
+	width:100%;
+}
+.select {
+	width: 100%;
+	min-width: 250px;
+	border: 2px solid #292c35;
+	border-radius: 12px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+	height: 26px !important;
+	position: absolute !important;
+	top: 4px !important;
+	right: 3px !important;
+	width: 30px !important;
+}
+
+.select2-container--default .select2-selection--single {
+	background-color: transparent !important;
+	border: 2px solid #292c35 !important;
+	border-radius: 8px !important;
+	height: 36px !important;
+	text-align: start !important;
+}
+
+
+	.select2-container--default .select2-selection--single .select2-selection__arrow b {
+		border-color: #292c35 transparent transparent transparent !important;
+		border-style: solid !important;
+		border-width: 5px 4px 0 4px !important;
+		height: 0 !important;
+		left: 30% !important;
+		margin-left: -4px !important;
+		margin-top: -2px !important;
+		position: absolute !important;
+		top: 65% !important;
+		width: 0 !important;
+	}
+
+	.select2-container--default .select2-selection--single .select2-selection__rendered {
+		color: #5a5a5a !important;
+		line-height: 33px !important;
+	}
+
+	.select2-container--default .select2-selection--single .select2-selection__arrow b {
+		border-color: #292c35 transparent transparent transparent !important;
+		border-style: solid !important;
+		border-width: 5px 4px 0 4px !important;
+		height: 0 !important;
+		left: 50% !important;
+		margin-left: -4px !important;
+		margin-top: -2px !important;
+		position: absolute !important;
+		top: 65% !important;
+		width: 0 !important;
+}
+
+.inputs-6 select:focus {
+	background: #e7e7e7;
+	padding: 0 10px;
+	/*font-weight: 600;*/
+}
+
+.inputs-6 select {
+	border: 2px solid #292C35;
+	border-radius: 10px;
+	padding: 0 15px;
+	margin: 8px 0;
+	width: 100%;
+	color: #5a5a5a;
+	height: 35px;
+	line-height: 25px;
+	cursor: pointer;
+	font-size: 20px;
+	/*font-weight: 600;*/
+}
+.inputs-1 select:hover {
+	border: 2.5px solid #4285f4;
+	transition: all 0.5s ease;
+	/*font-weight: 600;*/
+}
+.inputs-1 select:focus {
+	background: #e7e7e7;
+	font-weight: 600;
+	padding: 0 10px;
+}
+.inputs-1 select {
+	border: 2px solid #292C35;
+	border-radius: 10px;
+	padding: 0 15px;
+	margin: 8px 0;
+	/*width: 49%;*/
+	height: 35px;
+	line-height: 25px;
+	cursor: pointer;
+	font-size: 20px;
+	/*font-weight: 600;*/
+	color: #5a5a5a;
+}
+
+
+.inputs-1{
+	position: relative;
+}
+
+.inputs-9 input{
+	height: 100px;
+	resize: none;
+
+}
+input[type="date"]
+{
+	padding:0 10px;
+}
+
+/*.inputs-1 input{
+	width:50%;
+}
+.inputs-2 input{
+	width: 49%;
+}
+.inputs-3 input{
+	width: 49%;
+}
+.inputs-4 input{
+	width: 49%;
+}
+.inputs-5 input{
+	width: 49%;
+}
+.inputs-6 input{
+	width: 49%;
+}
+.inputs-7 input{
+	width: 49%;
+}*/
+
+#AddOr{
+	width: 70%;
+	margin-right: 15%;
+	margin-top: 5px;
+	height: 45px;
+}
+button {
+	/*margin: auto;*/
+	/*display: flex;
+	align-items: center;
+	justify-content: center;*/
+	width: 20%;
+	height: 40px;
+	background: #292C35;
+	color: #e7e7e7;
+	border: none;
+	cursor: pointer;
+	border-radius: 10px;
+	font-size: 20px;
+	transition: 0.2s;
+}
+.btn-delete:hover {
+	background-color: #292C35;
+	color:#f5f5f5;
+}
+.submit{
+	margin-left:10px;
+}
+.box-btn {
+	display: flex;
+}
+#EditInput .submit {
+	margin-top: 10px;
+}
+.btn-delete {
+	background-color: transparent;
+	color: #292C35;
+	border: 2px solid #292C35;
+	border-radius: 10px;
+}
+.searchblock {
+	margin-top: 10px;
+}
+#search{
+	margin-right: 25%;
+	height:35px;
+	font-size: 15px;
+	font-weight: 500;
+	width: 50%;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+	border-color: #292c35 transparent  transparent  transparent !important;
+	border-style: solid !important;
+	border-width: 5px 4px 0 4px !important;
+	height: 0 !important;
+	left: 50% !important;
+	margin-left: -4px !important;
+	margin-top: -2px !important;
+	position: absolute !important;
+	top: 50% !important;
+	width: 0 !important;
+}
+.to-top {
+	position: fixed;
+	background: #292C35;
+	bottom:3%;
+	color: #808080;
+	padding: 3px;
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	border-radius: 5px;
+	cursor:pointer;
+	transition:0.3s;
+}
+.to-top:hover{
+	color:#fff;
+}
+
+@media (max-width: 1024px) {
+		.nav{
+		width: 10%;
+		right: -300px;	
+	}
+	.nav.active{
+		width: 8%; 	
+		right:0;
+	}
+	.main{
+	  width: 100%;
+	  right:0;
+	}
+	.main.active{
+		left: 300px;
+	}
+	.crud{
+		width: 80%;
+	}
+	table th{
+		display: none;
+	}
+	table tr{
+		margin-bottom: 15px;
+	}
+	tr td{
+		border: 1px solid #292C35;
+	}
+	table tbody tr td{
+		position: relative;
+		display:block;
+		width: 100%;
+		text-align: left;
+	}
+	table tbody tr td button{
+		width: 20%;
+		position: relative;
+		right: 520px;
+		font-size: 18px;
+	}
+	table td::before{
+		content: attr(data-label);
+		position: absolute;
+		right: 0;
+		width: 50%;
+		padding-right: 10PX;
+		font-size: 20px;
+		font-weight: 500;
+		text-align: right;
+	}
+}
+@media (max-width: 800px){
+	.nav{
+		width: 15%;
+		right: -300px;
+		z-index: 1000;
+	}
+	.nav.active{
+		width: 12%; 	
+		right: 0;
+	}
+	.main{
+		width:100%;
+		margin-right:10px;
+		right:0;
+	}
+	.main.active{
+		left:500px;
+	}
+	.crud{
+		width: 80%;
+	}
+	button{
+		font-size: 18px;
+		font-weight: 500;
+	}
+	button:hover{
+	   font-size:20px;
+	   font-weight: 500;
+    }
+	.btnsearch{
+	display: block;
+	margin: 2px 0;
+	margin-right: 27%;
+	width: 100%;
+    }
+    .btnsearch button{
+	width: 70%;
+	margin-top: 3px;
+	margin-right: -48px;
+    }
+    .inputs-1 input{
+    	width: 100%;
+    }
+    .inputs-2 input{
+    	width:100%;
+    }
+    .inputs-3 input{
+    	width: 100%;
+    }
+    .inputs-4 input{
+    	width: 100%;
+    }
+    .inputs-5 input{
+    	width: 100%;
+    }
+    .inputs-6 input{
+		width: 49%;
+	}
+	.inputs-7 input{
+		width: 100%;
+	}
+	.inputs-8 input{
+		width: 100%;
+	}
+	.inputs-9 input{
+		width: 100%;
+	}
+	.inputs-10 input{
+		width: 49%;
+	}
+	.inputs-11 input{
+		width: 49%;
+	}
+    #Textaera{
+	width: 98.5%;
+    }
+    #search{
+    	width: 100%;
+    	margin-right: 0;
+    }
+    .nav ul li{
+    	border-top-right-radius:100%;
+	    border-bottom-right-radius: 100%;
+    }
+    .nav ul li:hover a::before,
+    .nav ul li.hovered a::before
+    {
+    	width: 0;
+	    height:0;
+	    box-shadow: -35px  35px 0 10px #f5f5f5;
+    }
+    .nav ul li:hover a::after,
+    .nav ul li.hovered a::after
+    {
+    	width: 0;
+	    height: 0;
+	    box-shadow: -35px  -35px 0 10px #f5f5f5;
+    }
+    .nav ul li a{
+    	padding-bottom: 10px;
+    	align-items: center;
+    	margin-right: -10px;
+    }
+    input:hover{
+    	transition: all 0.1s ease;
+    	border: 2.5px solid #4285f4
+    }
+    input:focus + ._1,
+    input:valid + ._1{
+	top:-5px;
+	right: 43%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+
+    }
+    ._3{
+    	right: 40%;
+    }
+    input:focus + ._3,
+     input:valid + ._3{
+	top: 172px;
+	right: 40%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._4,
+     input:valid + ._4{
+	top: 218px;
+	right: 45%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._5,
+     input:valid + ._5{
+	top: 260px;
+	right: 43%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._6,
+     input:valid + ._6{
+	top: 305px;
+	right: 50%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._7,
+     input:valid + ._7{
+	top: 350px;
+	right: 41%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._8,
+     input:valid + ._8{
+	top: 395px;
+	right: 39%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+     input:focus + ._9,
+     input:valid + ._9{
+	top: 440px;
+	right: 45%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._10,
+     input:valid + ._10{
+	top: 485px;
+	right: 39%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._11,
+     input:valid + ._11{
+	top: 575px;
+	right: 42.6%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._12,
+     input:valid + ._12{
+	top: 0px;
+	right: 29%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._13,
+     input:valid + ._13{
+	top: 440px;
+	right: 45%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._14,
+     input:valid + ._14{
+	top: 485px;
+	right: 39%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._15,
+     input:valid + ._15{
+	top: 350px;
+	right: 26%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._16,
+     input:valid + ._16{
+	top: 350px;
+	right: 65%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._17,
+     input:valid + ._17{
+	top: 395px;
+	right: 24.8%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._18,
+     input:valid + ._18{
+	top: 395px;
+	right: 65%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._19,
+     input:valid + ._19{
+	top: 440px;
+	right: 27%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._20,
+     input:valid + ._20{
+	top: 440px;
+	right: 65%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._21,
+     input:valid + ._21{
+	top: 485px;
+	right: 26.5%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._22,
+     input:valid + ._22{
+	top: 485px;
+	right: 66.5%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._23,
+	input:valid + ._23{
+	top:530px;
+	right:25%;
+	font-size: 17px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	}
+	input:focus + ._24,
+	input:valid + ._24{
+	top:530px;
+	right:63.5%;
+	font-size: 17px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	}
+    .notifiction{
+	position: relative;
+	width: 60%;
+    }
+    .notifiction ion-icon{
+	position: absolute;
+	top: -12px;
+	left: 0px;
+	font-size: 25px;
+    }
+	table tbody tr td{
+		display: grid;
+		justify-content: flex-end;
+		align-items: center;
+		padding: 15px 5px;
+		width: 100%;
+	}
+	table tbody tr td button{
+		width: 100%;
+		position: relative;
+		padding: 0 20px;
+		right: 0;
+		font-size: 18px;
+	}
+}
+@media (max-width: 844px){
+	.nav{
+		width: 15%;
+		right: -300px;
+		z-index: 1000;
+	}
+	.nav.active{
+		width: 8%; 	
+		right: 0;
+	}
+	.main{
+		width:100%;
+		margin-right:10px;
+		right:0;
+	}
+	.main.active{
+		left:500px;
+	}
+	.crud{
+		width: 80%;
+	}
+	button{
+		font-size: 18px;
+		font-weight: 400;
+	}
+	button:hover{
+	   font-size:20px;
+	   font-weight: 500;
+    }
+	.btnsearch{
+	display: block;
+	margin: 2px 0;
+	margin-right: 27%;
+	width: 100%;
+    }
+    .btnsearch button{
+	width: 50%;
+	margin-top: 3px;
+	margin-right: -5px;
+    }
+    .inputs-1 input{
+    	width: 49%;
+    }
+    .inputs-2 input{
+    	width:49%;
+    }
+    .inputs-3 input{
+    	width: 49%;
+    }
+    .inputs-4 input{
+    	width: 49%;
+    }
+    .inputs-5 input{
+    	width: 49%;
+    }
+    .inputs-6 input{
+    	width: 49%;
+    }
+    .inputs-7 input{
+    	width: 49%;
+    }
+    .inputs-8 input{
+    	width: 49%;
+    }
+    .inputs-9 input{
+    	width: 49%;
+    }
+    .inputs-10 input{
+		width: 49%;
+	}
+	.inputs-11 input{
+		width: 49%;
+	}
+    #textaera{
+	width:100%;
+    }
+    #search{
+    	width: 100%;
+    	margin-right: 0;
+    }
+    .nav ul li{
+    	border-top-right-radius:100%;
+	    border-bottom-right-radius: 100%;
+    }
+    .nav ul li:hover a::before,
+    .nav ul li.hovered a::before
+    {
+    	width: 0;
+	    height:0;
+	    box-shadow: -35px  35px 0 10px #f5f5f5;
+    }
+    .nav ul li:hover a::after,
+    .nav ul li.hovered a::after
+    {
+    	width: 0;
+	    height: 0;
+	    box-shadow: -35px  -35px 0 10px #f5f5f5;
+    }
+    .nav ul li a{
+    	padding-bottom: 10px;
+    	align-items: center;
+    	margin-right: -10px;
+    }
+    input:hover{
+    	transition: all 0.1s ease;
+    	border: 2.5px solid #4285f4
+    }
+   
+    .notifiction{
+	position: relative;
+	width: 60%;
+    }
+    .notifiction ion-icon{
+	position: absolute;
+	top: -12px;
+	left: 0px;
+	font-size: 25px;
+    }
+    table tbody tr td{
+    	display: grid;
+		justify-content: flex-start;
+		align-items: center;
+		padding: 15px 5px;	
+		width: 100%;
+		direction: ltr;
+    }
+    table tbody tr td button{
+		width: 100%;
+		position: relative;
+		padding: 0 20px;
+		right: 0;
+		font-size: 18px;
+		direction: ltr;
+	}
+}
+@media (max-width: 412px){
+	.nav{
+		width: 15%;
+		right: -300px;
+		z-index: 1000;
+	}
+	.nav.active{
+		width: 12%; 	
+		right: 0;
+	}
+	.main{
+		width:100%;
+		margin-right:10px;
+		right:0;
+	}
+	.main.active{
+		left:500px;
+	}
+	.crud{
+		width: 80%;
+	}
+	button{
+		font-size: 18px;
+		font-weight: 500;
+	}
+	button:hover{
+	   font-size:20px;
+	   font-weight: 500;
+    }
+	.btnsearch{
+	display: block;
+	margin: 2px 0;
+	margin-right: 27%;
+	width: 100%;
+    }
+    .btnsearch button{
+	width: 70%;
+	margin-top: 3px;
+	margin-right: -40px;
+    }
+    .inputs-1 input{
+    	width: 99%;
+    }
+    .inputs-2 input{
+    	width:99%;
+    }
+    .inputs-3 input{
+    	width: 99%;
+    }
+    .inputs-4 input{
+    	width: 49%;
+    }
+    .inputs-5 input{
+    	width: 99%;
+    }
+    .inputs-6 input{
+    	width: 49%;
+    }
+    .inputs-7 input{
+    	width: 49%;
+    }
+    .inputs-8 input{
+    	width: 99%;
+    }
+    .inputs-9 input{
+    	width: 99%;
+    }
+    .inputs-10 input{
+    	width: 49%;
+    }
+    .inputs-11 input{
+    	width: 49%;
+    }
+
+    #textaera{
+	width: 99%;
+    }
+    #search{
+    	width: 100%;
+    	margin-right: 0;
+    }
+    .nav ul li{
+    	border-top-right-radius:100%;
+	    border-bottom-right-radius: 100%;
+    }
+    .nav ul li:hover a::before,
+    .nav ul li.hovered a::before
+    {
+    	width: 0;
+	    height:0;
+	    box-shadow: -35px  35px 0 10px #f5f5f5;
+    }
+    .nav ul li:hover a::after,
+    .nav ul li.hovered a::after
+    {
+    	width: 0;
+	    height: 0;
+	    box-shadow: -35px  -35px 0 10px #f5f5f5;
+    }
+    .nav ul li a{
+    	padding-bottom: 10px;
+    	align-items: center;
+    	margin-right: -10px;
+    }
+    select{
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	-ms-appearance:none;
+	outline: 0;
+	border: 1!important;
+	appearance:none;
+	box-shadow: none;
+	background: #f5f5f5;
+	}
+	.inputs-3 select:hover{
+	border: 2.5px solid #4285f4;
+	transition: all 0.5s ease;
+	}
+	.inputs-3 select:focus{
+	background: #f5f5f5;
+	padding: 0 10px;
+	}
+	.inputs-3 select{
+	border: 2px solid #292C35;
+	border-radius: 10px;
+	padding: 0 10px;
+	font-size: 18px;
+	width: 99%;
+	height: 35px;
+	line-height: 25px;
+	cursor: pointer;
+	}
+    input:hover{
+    	transition: all 0.1s ease;
+    	border: 2.5px solid #4285f4
+    }
+    input:focus + ._1,
+    input:valid + ._1{
+	top:-5px;
+	right: 38.5%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+
+    }
+    input:focus + ._2,
+    input:valid + ._2{
+	top: 42px;
+	right: 38%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    ._3{
+    	top: 172px;
+    	right: 35%;
+    }
+    input:focus + ._3,
+     input:valid + ._3{
+	top: 172px;
+	right: 35%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._4,
+     input:valid + ._4{
+	top: 218px;
+	right: 39.5%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._5,
+     input:valid + ._5{
+	top: 260px;
+	right: 43%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._6,
+     input:valid + ._6{
+	top: 299px;
+	right: 43%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._7,
+     input:valid + ._7{
+	top: 340px;
+	right: 22%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._8,
+     input:valid + ._8{
+	top: 340px;
+	right: 62%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+     input:focus + ._9,
+     input:valid + ._9{
+	top: 385px;
+	right: 43.5%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._10,
+     input:valid + ._10{
+	top: 430px;
+	right: 44.2%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._11,
+     input:valid + ._11{
+	top: 835px;
+	right: 42%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._12,
+     input:valid + ._12{
+	top: 0px;
+	right: 26%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._13,
+     input:valid + ._13{
+	top: 475px;
+	right: 22%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._14,
+     input:valid + ._14{
+	top: 475px;
+	right: 61.5%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._15,
+     input:valid + ._15{
+	top: 520px;
+	right: 22%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._16,
+     input:valid + ._16{
+	top: 520px;
+	right: 60%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._17,
+     input:valid + ._17{
+	top: 565px;
+	right: 40%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._18,
+     input:valid + ._18{
+	top: 610px;
+	right: 42%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._19,
+     input:valid + ._19{
+	top: 655px;
+	right: 45%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._20,
+     input:valid + ._20{
+	top: 700px;
+	right: 40%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._21,
+     input:valid + ._21{
+	top: 745px;
+	right: 23%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._22,
+     input:valid + ._22{
+	top: 745px;
+	right: 63%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+    }
+    input:focus + ._23,
+	input:valid + ._23{
+	top:790px;
+	right:20.5%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	}
+	input:focus + ._24,
+	input:valid + ._24{
+	top:790px;
+	right:59%;
+	font-size: 15px;
+	background: #f5f5f5;
+	padding: 0 10px;
+	}
+    .notifiction{
+	position: relative;
+	width: 60%;
+    }
+    .notifiction ion-icon{
+	position: absolute;
+	top: -12px;
+	left: 0px;
+	font-size: 25px;
+    }
+    table tbody tr td{
+    	display: grid;
+		justify-content: flex-start;
+		align-items: center;
+		padding: 15px 5px;	
+		width: 100%;
+		direction: ltr;
+    }
+    table tbody tr td button{
+		width: 100%;
+		position: relative;
+		padding: 0 20px;
+		right: 0;
+		font-size: 18px;
+		direction:ltr;
+	}
+}

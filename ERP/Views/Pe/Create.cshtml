@@ -1,0 +1,185 @@
+﻿@model ERP.Models.Pe
+
+@{
+    ViewData["Title"] = "إضافة مرجع";
+}
+@section CssFiles{
+    <link href="~/css/Pe/Create.css" rel="stylesheet" />
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+}
+<h1 style="font-size:40px;">اضافة</h1>
+<hr />
+<br />
+<form asp-action="Index" id="getBackForm">
+    <span class="to-top" onclick="GoIndex()">
+        <i class='bx bx-arrow-back'></i>
+    </span>
+</form>
+<div class="crud">
+    <form asp-action="Create">
+
+        <div class="inputs" >
+            <div class="inputs-1">
+                <div class="box-left">
+                    <input asp-for="NaPe" type="text" placeholder="الاسم">@*<span class="_1">الاسم</span>*@
+                    <span asp-validation-for="NaPe" class="text-danger right" ></span>
+                </div>
+
+                <div class="box-right">
+                    <input asp-for="PhoPe" class="form-control" style="direction:ltr" type="text" placeholder="الموبايل" id="phone"/>@*<span class="_6">الموبايل</span>*@
+                    <span asp-validation-for="PhoPe" class="text-danger left"></span>
+                </div>
+
+
+            </div>
+            <!--<div class="inputs-2">
+                <div class="box-left">
+                    <input asp-for="NatPe" type="text" placeholder="الجنسية">-->@*<span class="_3">الجنسية</span>*@
+                    <!--<span asp-validation-for="NatPe" class="text-danger right"></span>
+                </div>
+                <div class="box-right">
+                    <input asp-for="CiPe" type="text" placeholder="المدينة">-->@*<span class="_4">المدينة</span>*@
+                    <!--<span asp-validation-for="CiPe" class="text-danger left"></span>
+                </div>
+
+            </div>-->
+        <div class="inputs-3" >
+            <div class="box-start">
+                <input asp-for="CiPe" type="text" placeholder="المدينة">@*<span class="_4">المدينة</span>*@
+                <span asp-validation-for="CiPe" class="text-danger left"></span>
+            </div>
+            <div class="box-center">
+                <input asp-for="JoPe" type="text" placeholder="العمل">@*<span class="_5">العمل</span>*@
+                <span asp-validation-for="JoPe" class="text-danger right"></span>
+            </div>
+            <div class="box-end">
+                <input asp-for="NatPe" type="text" placeholder="الجنسية">@*<span class="_3">الجنسية</span>*@
+                <span asp-validation-for="NatPe" class="text-danger right"></span>
+            </div>
+        </div>
+
+            <div class="inputs-4">
+
+                <div class="box-left">
+                    <div style="text-align:center; font-weight:600;">
+                        <span>اخر تواصل</span>
+                    </div>
+                    <input asp-for="DaEnPe" type="date" id="daenpe" class="form-control" />
+                    <span asp-validation-for="DaEnPe" class="text-danger right"></span>
+                </div>
+
+                <div class="box-right">
+                    <div style="text-align: center; font-weight: 600;">
+                        <span>تاريخ التعارف</span>
+                    </div>
+                    <input asp-for="DaPe" type="date" id="dape">
+                    @*<span class="_7">العمل</span>*@
+                    <span asp-validation-for="DaPe" class="text-danger left"></span>
+                </div>
+
+
+            </div>
+
+            <div class="inputs-5">
+                <div class="box-left">
+                    <input asp-for="CerPe" type="text" placeholder="الشهادة العلمية">@*<span class="_8">الجنسية</span>*@
+                    <span asp-validation-for="CerPe" class="text-danger right"></span>
+                </div>
+
+                <div class="box-right">
+                    <input asp-for="EmPe" type="text" style="direction:ltr" placeholder="البريد الإلكتروني">@*<span class="_9">الاقامة</span>*@
+                    <span asp-validation-for="EmPe" class="text-danger left"></span>
+                </div>
+
+            </div>
+
+            <div class="inputs-6">
+
+                <div class="box-start">
+                    <select asp-for="TyPe" asp-items="ViewBag.TyPe"></select>
+                    <span asp-validation-for="TyPe" class="text-danger left"></span>
+                </div>
+
+
+                <div class="box-center">
+                    <select asp-for="Id1Pe" class="form-control" asp-items="ViewBag.Id1Pe" id="ddlCustomers"><option selected="selected" disabled="disabled">المعرف</option></select>
+                    @if (ViewBag.Message != null)
+                    {
+                        <script type="text/javascript">
+                window.onload = function () {
+                    alert("@ViewBag.Message");
+                };
+                        </script>
+                    }
+                    <span asp-validation-for="Id1Pe" class="text-danger right"></span>
+                </div>
+
+                <div class="box-end">
+                    <select asp-for="IdPeCat" class="form-control" asp-items="ViewBag.IdPeCat"></select>
+                    <span asp-validation-for="IdPeCat" class="text-danger left"></span>
+                </div>
+
+            </div>
+
+            <div class="inputs-7">
+
+
+                <div class="box-right" style="width:100%">
+                    <input asp-for="MetPe" class="form-control" type="text" placeholder="طريقة التعارف">@*<span class="_11">الايميل</span>*@
+                    <span asp-validation-for="MetPe" class="text-danger left"></span>
+                </div>
+                <input asp-for="DaNpe" class="form-control" type="hidden" value="@DateTime.Now" placeholder="تاريخ تسجيل القيد" />
+
+            </div>
+
+            <div class="inputs-8">
+                <!--<input asp-for="NotPe" type="text" placeholder="الملاحظات">-->@*<span class="_6">الموبايل</span>*@
+                <textarea asp-for="NotPe" placeholder="الملاحظات"></textarea>
+                <span asp-validation-for="NotPe" class="text-danger"></span>
+            </div>
+            <div class="box-btn">
+                <button id="AddPe" class="submit">اضافة </button><br />
+                <button class="submit btn-delete" type="reset">حذف البيانات</button><br />
+            </div>
+            
+        </div>
+    </form>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        var aspdate = DateTime.Now;
+        <script>
+
+            var dape = document.getElementById('dape');
+        var daenpe = document.getElementById('daenpe');
+        var date = new Date();
+        var day = String(@aspdate.Day).padStart(2, "0");
+        var month = String(@aspdate.Month).padStart(2, "0");
+
+        var year = @aspdate.Year;
+        var fulld = year + "-" + month + "-" + day;
+        dape.value = fulld;
+        daenpe.value = fulld;
+        </script>
+    }
+    @if (ViewBag.ChangeName != null)
+    {
+        <script>
+            alert("يجب تغيير اسم المرجع");
+        </script>
+    }
+    @if (ViewBag.ChangePhone != null)
+    {
+        <script>
+            alert("يجب تغيير رقم الهاتف");
+        </script>
+
+    }
+
+}
+
+

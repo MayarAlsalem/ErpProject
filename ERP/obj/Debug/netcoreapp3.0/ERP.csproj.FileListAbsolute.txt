@@ -1,0 +1,1216 @@
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\appsettings.Development.json
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\appsettings.json
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.exe
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.deps.json
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.runtimeconfig.json
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.runtimeconfig.dev.json
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.pdb
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.Views.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.Views.pdb
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Razor.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\dotnet-aspnet-codegenerator-design.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\NuGet.Frameworks.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.AttributedModel.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.Convention.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.Hosting.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.Runtime.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.TypedParts.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.csproj.AssemblyReference.cache
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.GeneratedMSBuildEditorConfig.editorconfig
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.AssemblyInfoInputs.cache
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.AssemblyInfo.cs
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.csproj.CoreCompileInputs.cache
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.MvcApplicationPartsAssemblyInfo.cache
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorAssemblyInfo.cache
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorAssemblyInfo.cs
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\staticwebassets\ERP.StaticWebAssets.Manifest.cache
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\staticwebassets\ERP.StaticWebAssets.xml
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\scopedcss\bundle\ERP.styles.css
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.TagHelpers.input.cache
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.TagHelpers.output.cache
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorCoreGenerate.cache
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Error.cshtml.g.cs
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Index.cshtml.g.cs
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Privacy.cshtml.g.cs
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorTargetAssemblyInfo.cache
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorTargetAssemblyInfo.cs
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.Views.pdb
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.csproj.CopyComplete
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.dll
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.pdb
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.genruntimeconfig.cache
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Create.cshtml.g.cs
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Delete.cshtml.g.cs
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Details.cshtml.g.cs
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Edit.cshtml.g.cs
+D:\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Index.cshtml.g.cs
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.exe
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.deps.json
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.runtimeconfig.json
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.runtimeconfig.dev.json
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.pdb
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.Views.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.Views.pdb
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\NuGet.Frameworks.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.AttributedModel.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.Convention.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.Hosting.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.Runtime.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.TypedParts.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.csproj.AssemblyReference.cache
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.AssemblyInfoInputs.cache
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.AssemblyInfo.cs
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.csproj.CoreCompileInputs.cache
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorAssemblyInfo.cache
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorAssemblyInfo.cs
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\staticwebassets\ERP.StaticWebAssets.Manifest.cache
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\staticwebassets\ERP.StaticWebAssets.xml
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\scopedcss\bundle\ERP.styles.css
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.TagHelpers.input.cache
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.TagHelpers.output.cache
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorCoreGenerate.cache
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Error.cshtml.g.cs
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Index.cshtml.g.cs
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Create.cshtml.g.cs
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Delete.cshtml.g.cs
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Details.cshtml.g.cs
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Edit.cshtml.g.cs
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Index.cshtml.g.cs
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Privacy.cshtml.g.cs
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorTargetAssemblyInfo.cache
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorTargetAssemblyInfo.cs
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.Views.pdb
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.csproj.CopyComplete
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.dll
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.pdb
+C:\Users\j.eshak\Desktop\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.genruntimeconfig.cache
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.exe
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.deps.json
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.runtimeconfig.json
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.runtimeconfig.dev.json
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.pdb
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.Views.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.Views.pdb
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\NuGet.Frameworks.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.AttributedModel.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.Convention.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.Hosting.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.Runtime.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.TypedParts.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.csproj.AssemblyReference.cache
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.AssemblyInfoInputs.cache
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.AssemblyInfo.cs
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.csproj.CoreCompileInputs.cache
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorAssemblyInfo.cache
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorAssemblyInfo.cs
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\staticwebassets\ERP.StaticWebAssets.Manifest.cache
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\staticwebassets\ERP.StaticWebAssets.xml
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\scopedcss\bundle\ERP.styles.css
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.TagHelpers.input.cache
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.TagHelpers.output.cache
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorCoreGenerate.cache
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Error.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Index.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Create.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Delete.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Details.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Edit.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Index.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Privacy.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorTargetAssemblyInfo.cache
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorTargetAssemblyInfo.cs
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.Views.pdb
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.csproj.CopyComplete
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.dll
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.pdb
+C:\Users\y.sbsabe\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.genruntimeconfig.cache
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.csproj.AssemblyReference.cache
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.AssemblyInfoInputs.cache
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.AssemblyInfo.cs
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.csproj.CoreCompileInputs.cache
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorAssemblyInfo.cache
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorAssemblyInfo.cs
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.pdb
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.exe
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.deps.json
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.runtimeconfig.json
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.runtimeconfig.dev.json
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.pdb
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.Views.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.Views.pdb
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\NuGet.Frameworks.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.AttributedModel.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.Convention.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.Hosting.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.Runtime.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.TypedParts.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\staticwebassets\ERP.StaticWebAssets.Manifest.cache
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\staticwebassets\ERP.StaticWebAssets.xml
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\scopedcss\bundle\ERP.styles.css
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.TagHelpers.input.cache
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.TagHelpers.output.cache
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorCoreGenerate.cache
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Error.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Index.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Create.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Delete.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Details.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Edit.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Index.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Privacy.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorTargetAssemblyInfo.cache
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorTargetAssemblyInfo.cs
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.Views.pdb
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.csproj.CopyComplete
+C:\Users\m.alsalem\Desktop\New folder\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.genruntimeconfig.cache
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.exe
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.deps.json
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.runtimeconfig.json
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.runtimeconfig.dev.json
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.pdb
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.Views.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.Views.pdb
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\NuGet.Frameworks.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.AttributedModel.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.Convention.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.Hosting.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.Runtime.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.TypedParts.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.csproj.AssemblyReference.cache
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.AssemblyInfoInputs.cache
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.AssemblyInfo.cs
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.csproj.CoreCompileInputs.cache
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorAssemblyInfo.cache
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorAssemblyInfo.cs
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\staticwebassets\ERP.StaticWebAssets.Manifest.cache
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\staticwebassets\ERP.StaticWebAssets.xml
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\scopedcss\bundle\ERP.styles.css
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.TagHelpers.input.cache
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.TagHelpers.output.cache
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorCoreGenerate.cache
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Error.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Index.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Create.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Delete.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Details.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Edit.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Index.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Privacy.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorTargetAssemblyInfo.cache
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorTargetAssemblyInfo.cs
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.Views.pdb
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.csproj.CopyComplete
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.dll
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.pdb
+C:\Users\y.sbsabe\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.genruntimeconfig.cache
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.exe
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.deps.json
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.runtimeconfig.json
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.runtimeconfig.dev.json
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.pdb
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.Views.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.Views.pdb
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\NuGet.Frameworks.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.AttributedModel.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.Convention.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.Hosting.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.Runtime.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.TypedParts.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.csproj.AssemblyReference.cache
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.AssemblyInfoInputs.cache
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.AssemblyInfo.cs
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.csproj.CoreCompileInputs.cache
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorAssemblyInfo.cache
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorAssemblyInfo.cs
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\staticwebassets\ERP.StaticWebAssets.Manifest.cache
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\staticwebassets\ERP.StaticWebAssets.xml
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\scopedcss\bundle\ERP.styles.css
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.TagHelpers.input.cache
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.TagHelpers.output.cache
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorCoreGenerate.cache
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Error.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Index.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Create.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Delete.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Details.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Edit.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Index.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Privacy.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorTargetAssemblyInfo.cache
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorTargetAssemblyInfo.cs
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.Views.pdb
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.csproj.CopyComplete
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.dll
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.pdb
+C:\Users\m.alsalem\Desktop\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.genruntimeconfig.cache
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\appsettings.Development.json
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\appsettings.json
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.exe
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.deps.json
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.runtimeconfig.json
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.runtimeconfig.dev.json
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.pdb
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.Views.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ERP.Views.pdb
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Language.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Razor.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Workspaces.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\dotnet-aspnet-codegenerator-design.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\NuGet.Frameworks.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.AttributedModel.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.Convention.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.Hosting.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.Runtime.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\System.Composition.TypedParts.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.csproj.AssemblyReference.cache
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.GeneratedMSBuildEditorConfig.editorconfig
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.AssemblyInfoInputs.cache
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.AssemblyInfo.cs
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.csproj.CoreCompileInputs.cache
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.MvcApplicationPartsAssemblyInfo.cache
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorAssemblyInfo.cache
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorAssemblyInfo.cs
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\staticwebassets\ERP.StaticWebAssets.Manifest.cache
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\staticwebassets\ERP.StaticWebAssets.xml
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\scopedcss\bundle\ERP.styles.css
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.TagHelpers.input.cache
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.TagHelpers.output.cache
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorCoreGenerate.cache
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Error.cshtml.g.cs
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Index.cshtml.g.cs
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Create.cshtml.g.cs
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Delete.cshtml.g.cs
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Details.cshtml.g.cs
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Edit.cshtml.g.cs
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Index.cshtml.g.cs
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Privacy.cshtml.g.cs
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorTargetAssemblyInfo.cache
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.RazorTargetAssemblyInfo.cs
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.Views.pdb
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.csproj.CopyComplete
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.dll
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.pdb
+\\ysr\Sharing\R06-ERP\0000-Public Share ERP\Final\ERP\ERP\obj\Debug\netcoreapp3.0\ERP.genruntimeconfig.cache
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ERP.exe
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ERP.deps.json
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ERP.runtimeconfig.json
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ERP.runtimeconfig.dev.json
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ERP.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ERP.pdb
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ERP.Views.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ERP.Views.pdb
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\NuGet.Frameworks.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\System.Composition.AttributedModel.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\System.Composition.Convention.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\System.Composition.Hosting.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\System.Composition.Runtime.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\System.Composition.TypedParts.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.csproj.AssemblyReference.cache
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.AssemblyInfoInputs.cache
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.AssemblyInfo.cs
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.csproj.CoreCompileInputs.cache
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.RazorAssemblyInfo.cache
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.RazorAssemblyInfo.cs
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\staticwebassets\ERP.StaticWebAssets.Manifest.cache
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\staticwebassets\ERP.StaticWebAssets.xml
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\scopedcss\bundle\ERP.styles.css
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.TagHelpers.input.cache
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.TagHelpers.output.cache
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.RazorCoreGenerate.cache
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Error.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Index.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Create.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Delete.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Details.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Edit.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Index.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Privacy.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.RazorTargetAssemblyInfo.cache
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.RazorTargetAssemblyInfo.cs
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.Views.pdb
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.csproj.CopyComplete
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.dll
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.pdb
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.genruntimeconfig.cache
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ERP.exe
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ERP.deps.json
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ERP.runtimeconfig.json
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ERP.runtimeconfig.dev.json
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ERP.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ERP.pdb
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ERP.Views.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ERP.Views.pdb
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\NuGet.Frameworks.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\System.Composition.AttributedModel.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\System.Composition.Convention.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\System.Composition.Hosting.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\System.Composition.Runtime.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\System.Composition.TypedParts.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.csproj.AssemblyReference.cache
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.AssemblyInfoInputs.cache
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.AssemblyInfo.cs
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.csproj.CoreCompileInputs.cache
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.RazorAssemblyInfo.cache
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.RazorAssemblyInfo.cs
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\staticwebassets\ERP.StaticWebAssets.Manifest.cache
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\staticwebassets\ERP.StaticWebAssets.xml
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\scopedcss\bundle\ERP.styles.css
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.TagHelpers.input.cache
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.TagHelpers.output.cache
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.RazorCoreGenerate.cache
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Error.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Index.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Create.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Delete.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Details.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Edit.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Pe\Index.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Privacy.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.RazorTargetAssemblyInfo.cache
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.RazorTargetAssemblyInfo.cs
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.Views.pdb
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.csproj.CopyComplete
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.dll
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.pdb
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\ERP.genruntimeconfig.cache
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Ev\Create.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Ev\Delete.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Ev\Details.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Ev\Edit.cshtml.g.cs
+C:\Users\m.alsalem\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Ev\Index.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Ev\Create.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Ev\Delete.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Ev\Details.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Ev\Edit.cshtml.g.cs
+C:\Users\y.sbsabe\Desktop\GitHub\ErpProject\ERP\obj\Debug\netcoreapp3.0\Razor\Views\Ev\Index.cshtml.g.cs

@@ -1,0 +1,130 @@
+﻿@model IEnumerable<ERP.Models.Pe>
+
+@{
+    ViewData["Title"] = "Index";
+}
+@section CssFiles{
+    <link rel="stylesheet" href="~/css/btnsStyle.css" />
+    <link rel="stylesheet" href="~/css/Pe/Index.css" />
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    
+    
+}
+<h1 style="
+    font-size: 26pt;
+">
+    المراجع
+</h1>
+<br />
+
+<form asp-action="Index" id="getBackForm">
+    <span class="to-top" onclick="GoIndex()">
+        <i class='bx bx-arrow-back'></i>
+    </span>
+</form>
+<div class="DivSearch">
+
+    <div class="Div-box">
+        <a asp-action="Create" class="btndark btnlarge">إضافة مرجع</a>
+
+    </div>
+    <div class="box">
+        <input type="checkbox" id="check" />
+        <div class="box-search">
+
+            <form asp-action="Search" method="get">
+
+                <input type="search" name="value" placeholder="ابحث هنـــــا عن القيمة" required /><br />
+                <br />
+                <select name="col" class="select" asp-items="ViewBag.col">
+                    <option  value="" disabled="disabled" selected>
+                        بحث عن طريق الـ...
+                    </option>
+                </select>
+            </form>
+            <label for="check" class="icon">
+                @*<i class='bx bx-search bx-tada'></i>*@
+                <i class='bx bx-search-alt bx-tada bx-rotate-90'></i>
+            </label>
+        </div>
+    </div>
+
+</div>
+<br />
+<table id="t">
+    <tr>
+        <th>@Html.DisplayNameFor(model => model.IdPe)</th>
+        <th>@Html.DisplayNameFor(model => model.NaPe)</th>
+        <th>@Html.DisplayNameFor(model => model.IdPeCat) </th>
+        <th>@Html.DisplayNameFor(model => model.JoPe)</th>
+        <th>@Html.DisplayNameFor(model => model.PhoPe) </th>
+        <th>@Html.DisplayNameFor(model => model.DaPe)</th>
+        <th>@Html.DisplayNameFor(model => model.DaEnPe)</th>
+
+
+        <th colspan="2">الاحداث</th>
+
+
+    </tr>
+    <tbody id="tbody">
+        @if(Model!=null)foreach (var pe in Model)
+        {
+
+            <tr class="hoverRow">
+                <td><a asp-action="Details" asp-route-id="@pe.IdPe" class="details">@pe.IdPe</a></td>
+                <td>@Html.DisplayFor(modelItem => pe.NaPe)</td>
+                <td>@Html.DisplayFor(modelItem => pe.IdPeCatNavigation.PeCat1)</td>
+                <td>@Html.DisplayFor(modelItem => pe.JoPe)</td>
+                <td dir="ltr">@Html.DisplayFor(modelItem => pe.PhoPe)</td>
+                <td>
+                    @{
+                        var date = pe.DaPe;
+                        var res = date.ToString("dd/MM/yyyy");
+                    }
+                    @res
+                </td>
+                <td>
+                    @{
+                        date = pe.DaEnPe;
+                        res = date.ToString("dd/MM/yyyy");
+                    }
+                    @res
+                </td>
+                <td style="margin:1px;"><a asp-action="Edit" asp-route-id="@pe.IdPe" class="btndark btnmedium">تعديل</a></td>
+                <td>
+                    <form asp-action="Delete" asp-route-id="@pe.IdPe" method="post" id="form_@pe.IdPe.ToString()">
+                        <a class="btndark btnmedium alert-danger" id="@pe.IdPe" onclick="del(@pe.IdPe)" style=" cursor: pointer;">حذف</a>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (ViewBag.Deele != null)
+{
+    <input type="hidden" value="@ViewBag.Deele" id="message" />
+    <script>
+
+        alert(document.getElementById('message').value);
+    </script>
+}
+
+@section Scripts{
+    <script>
+        function del(id) {
+            var formid = "form_" + id;
+            if (confirm(" هل انت متأكد من حذف  العنصر الذي يحل الرقم " + id)) {
+                document.getElementById(formid).submit();
+
+            }
+
+        }
+        function det(id) {
+            var formid = "form_" + id;
+            document.getElementById(formid).submit();
+        }
+    </script>
+
+}
+
