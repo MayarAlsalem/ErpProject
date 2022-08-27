@@ -5,7 +5,12 @@
 }
 @section CssFiles{
     <link href="~/css/Pe/Create.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/btnsStyle.css" />
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    @*bootsrap*@
+
+
 
 }
 <h1 style="font-size:40px;">اضافة</h1>
@@ -82,9 +87,9 @@
             <div class="inputs-5" @*style="display:block"*@>
                 <div class="box-left" style="display:flex; align-items:center; white-space:nowrap">
                     <div style="text-align:center; font-weight:600;">
-                    <span style="margin-left:5px">تاريخ تسجيل القيد</span>
-                </div>
-                    <input asp-for="DaNev" class="form-control" type="date" >
+                        <span style="margin-left:5px">تاريخ تسجيل القيد</span>
+                    </div>
+                    <input asp-for="DaNev" class="form-control" type="date">
                     <span asp-validation-for="DaNev" class="text-danger right"></span>
                 </div>
 
@@ -96,7 +101,7 @@
             </div>
 
             <div class="inputs-6">
-                
+
                 <textarea asp-for="NotEv" placeholder="الملاحظات"></textarea>
                 <span asp-validation-for="NotEv" class="text-danger"></span>
             </div>
@@ -110,10 +115,17 @@
 
             <div class="box-btn">
                 <button id="AddPe" class="submit">اضافة </button><br />
-                <button class="submit btn-delete" type="reset">حذف البيانات</button><br />
+                <div class="Div-box" style="display:flex">
+                    <a asp-action="Create" class="btndark btnlarge">جديد</a><br />
+                    <a asp-action="Index" class="btndark btnlarge">الاحداث</a><br />
+                </div>
             </div>
-        </div>
     </form>
+
+</div>
+
+<div>
+    <p class="text-success">@ViewBag.message</p>
 </div>
 
 @section Scripts {

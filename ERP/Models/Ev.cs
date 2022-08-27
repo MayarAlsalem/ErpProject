@@ -25,7 +25,8 @@ namespace ERP.Models
         [Display(Name = "المكان")]
         public string PlEv { get; set; }
         [Display(Name = "تاريخ تسجيل القيد")]
-        public DateTime? DaNev { get; set; }
+       
+        public DateTime? DaNev { get; set; } 
         [Display(Name = "رقم الشخص")]
         public int? IdPe { get; set; }
         [Display(Name = "رمز المشروع")]

@@ -3,88 +3,134 @@
 @{
     ViewData["Title"] = "Details";
 }
+@section CssFiles{
+    <link href="~/css/Pe/Create.css" rel="stylesheet" />
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
-<h1>Details</h1>
+}
 
-<div>
-    <h4>Ev</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DaEv)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.DaEv)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Ti1Ev)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Ti1Ev)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.TitEv)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.TitEv)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ExEv)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ExEv)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NotEv)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.NotEv)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PlEv)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.PlEv)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DaNev)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.DaNev)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IdPe)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.IdPe)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ArEv)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ArEv)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Ti2Ev)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Ti2Ev)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CoPrNavigation)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CoPrNavigation.CoPr)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IdEvRefNavigation)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.IdEvRefNavigation.NaEvRef)
-        </dd>
-    </dl>
+<h1 style="font-size:40px;">التفاصيل</h1>
+<hr />
+<br />
+
+@*Go index is function in site.js *@
+<form asp-action="Index" id="getBackForm">
+    <span class="to-top" onclick="GoIndex()">
+        <i class='bx bx-arrow-back'></i>
+    </span>
+</form>
+
+<div class="crud">
+    <form asp-action="Edit">
+        <div class="inputs" id="EditInput">
+            <div class="inputs-1" style="align-items:center; white-space:nowrap;">
+                <div class="box-start">
+                    <div style="text-align:center; font-weight:600;">
+                        <span>تاريخ الحدث</span>
+                    </div>
+                    <input asp-for="DaEv" class="form-control" type="date" placeholder="تاريخ الحدث" readonly />
+                    <span asp-validation-for="DaEv" class="text-danger"></span>
+                </div>
+
+                <div class="box-center">
+                    <div style="text-align:center; font-weight:600;">
+                        <span>البداية</span>
+                    </div>
+                    <input asp-for="Ti1Ev" class="form-control" type="time" placeholder="البداية"  readonly/>
+                    <span asp-validation-for="Ti1Ev" class="text-danger left"></span>
+                </div>
+
+                <div class="box-end">
+                    <div style="text-align:center; font-weight:600;">
+                        <span>النهاية</span>
+                    </div>
+                    <input asp-for="Ti2Ev" type="time" placeholder="النهاية" readonly>
+                    <span asp-validation-for="Ti2Ev" class="text-danger right"></span>
+                </div>
+
+            </div>
+
+            <div class="inputs-3" style=" align-items: center; margin-top: -15px;">
+                <div class="box-left">
+                    <div style="text-align:center; font-weight:600;">
+                        <span>بيان الحدث</span>
+                    </div>
+                    <input asp-for="TitEv" type="text" placeholder="بيان الحدث" readonly>
+                    <span asp-validation-for="TitEv" class="text-danger right"></span>
+                </div>
+
+                <div class="box-right">
+                    <div style="text-align:center; font-weight:600;">
+                        <span>مرجع الحدث</span>
+                    </div>
+                    <select asp-for="IdEvRef" class="form-control" asp-items="ViewBag.IdEvRef" id="ddlCustomers" disabled><option selected="selected" disabled="disabled">مرجع الحدث</option></select>
+                    <span asp-validation-for="IdEvRef" class="text-danger left"></span>
+                </div>
+
+            </div>
+
+            <div class="inputs-4" style="align-items: center; white-space: nowrap; margin-top: -30px;">
+                <div class="box-start">
+                    <div style="text-align:center; font-weight:600;">
+                        <span>المكان</span>
+                    </div>
+                    <input asp-for="PlEv" class="form-control" placeholder="المكان" readonly/>
+                    <span asp-validation-for="PlEv" class="text-danger right"></span>
+                </div>
+
+                <div class="box-center">
+                    <div style="text-align:center; font-weight:600;">
+                        <span>رمز المشروع</span>
+                    </div>
+                    <select asp-for="CoPr" class="form-control" asp-items="ViewBag.CoPr" id="ddlCustomers1" disabled><option selected="selected" disabled="disabled">رمز المشروع </option></select>
+                    <span asp-validation-for="CoPr" class="text-danger left"></span>
+                </div>
+
+                <div class="box-end">
+                    <div style="text-align:center; font-weight:600;">
+                        <span>اسم الشخص</span>
+                    </div>
+                    <select asp-for="IdPe" class="form-control" asp-items="ViewBag.IdPe" id="ddlCustomers2" disabled><option selected="selected" disabled="disabled">اسم الشخص</option></select>
+                    <span asp-validation-for="IdPe" class="text-danger left"></span>
+                </div>
+
+            </div>
+
+            <div class="inputs-5" @*style="display:block"*@ style=" margin-top: -15px;">
+                <div class="box-left" style="display:flex; align-items:center; white-space:nowrap">
+                    <div style="text-align:center; font-weight:600;">
+                        <span style="margin-left:5px">تاريخ تسجيل القيد</span>
+                    </div>
+                    <input asp-for="DaNev" class="form-control" type="date" readonly>
+                    <span asp-validation-for="DaNev" class="text-danger right"></span>
+                </div>
+
+                <div class="box-right" @*style="width:100%"*@>
+                    <div style="text-align:center; font-weight:600;">
+                        <span>المحتوى</span>
+                    </div>
+                    <input asp-for="ExEv" placeholder="المحتوى" style="width:100%" readonly>
+                    <span asp-validation-for="ExEv" class="text-danger left"></span>
+                </div>
+
+            </div>
+
+            <div class="inputs-6">
+                <div style="text-align:center; font-weight:600;">
+                    <span>الملاحظات</span>
+                </div>
+                <textarea asp-for="NotEv" placeholder="الملاحظات" readonly></textarea>
+                <span asp-validation-for="NotEv" class="text-danger"></span>
+            </div>
+            <div class="inputs-7" style="align-items:center; justify-content:start">
+                <div style="text-align:center; font-weight:600;">
+                    <span>الأرشفة </span>
+                </div>
+                <input asp-for="ArEv" type="checkbox" class="form-control" style="width:10%"  disabled/>
+                <span asp-validation-for="ArEv" class="text-danger"></span>
+            </div>
+            <br />
+        </div>
+    </form>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model.IdEv">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+

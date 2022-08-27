@@ -31,7 +31,10 @@
 
         <div class="Div-box">
             <a asp-action="Create" class="btndark btnlarge">إضافة حدث </a>
-
+            <form asp-action="Index" method="get"style="display:inline-block;">
+              <input type="submit"value="الكل" name="all" style=" padding: 12px 35px; text-align: center; width: auto; height: auto;" />
+            </form>
+            
         </div>
         <div class="box">
             <input type="checkbox" id="check" />
@@ -98,7 +101,7 @@
             {
             <tr class="hoverRow">
                 <td>
-                    @Html.DisplayFor(modelItem => item.IdEv)
+                    <a asp-action="Details" asp-route-id="@item.IdEv" class="details">@item.IdEv</a>
                 </td>
                 <td style="direction: ltr;">
                     @{
@@ -153,11 +156,11 @@
                     @Html.DisplayFor(modelItem => item.IdEvRefNavigation.NaEvRef)
                 </td>
                 <td style="margin:1px;">
-                    <a asp-action="Edit" asp-route-id="@item.IdEv" class="btndark btnmedium">التعديل</a>
+                    <a class="btndark" style=" margin: -8px; padding: 1px 10px;" asp-action="Edit" asp-route-id="@item.IdEv">التعديل</a>
                 </td>
                 <td>
                     <form asp-action="Delete" asp-route-id="@item.IdEv" method="post" id="form_@item.IdEv.ToString()">
-                        <a class="btndark btnmedium alert-danger" id="@item.IdEv" onclick="del(@item.IdEv)" style=" cursor: pointer;">حذف</a>
+                        <a class="btndark btnmedium" id="@item.IdEv" onclick="del(@item.IdEv)" style=" cursor: pointer;">حذف</a>
                     </form>
                 </td>
             </tr>

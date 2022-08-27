@@ -399,7 +399,7 @@ select {
 	padding: 0;
 }
 #EditInput span{
-	margin-left:10px;
+	margin-left:3px;
 }
 
 #EditInput .inputs-7{
@@ -470,6 +470,13 @@ select{
 	border-radius: 12px;
 }
 
+#EditInput .select2-container--default .select2-selection--single .select2-selection__arrow {
+	height: 26px !important;
+	position: absolute !important;
+	top: 32px !important;
+	right: 3px !important;
+	width: 30px !important;
+}
 .select2-container--default .select2-selection--single .select2-selection__arrow {
 	height: 26px !important;
 	position: absolute !important;

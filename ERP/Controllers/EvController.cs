@@ -21,13 +21,33 @@ namespace ERP.Controllers
         }
 
         // GET: Ev
+        private void FillSelectsWithColumns()
+        {
+            List<SelectListItem> columns = new List<SelectListItem>();
+            foreach (var field in typeof(Ev).GetProperties())
+            {
+                MemberInfo property = typeof(Ev).GetProperty(field.Name);
+                var dd = property.GetCustomAttribute(typeof(DisplayAttribute)) as DisplayAttribute;
+                if (dd != null)
+                {
+                    
+                    if (field.Name == "IdEv" || field.Name == "CoPr" || field.Name == "TitEv" || field.Name == "IdPe" || field.Name == "DaEv" || field.Name == "Ti1Ev" || field.Name == "Ti2Ev" || field.Name == "IdEvRef")
+                        columns.Add(new SelectListItem
+                        {                            
+                            Value = field.Name,
+                            Text = field.Name == "IdPe" ? "الاسم" : field.Name == "IdEvRef" ? "اسم مرجع الحدث" : dd.Name
+                        });
+                }
+            }
+            ViewBag.col = columns;
+        }
         public async Task<IActionResult> Search(string value, string col)
         {
             FillSelectsWithColumns();
             if (!string.IsNullOrEmpty(col))
             {
 
-                var eRPContext = _context.Ev;
+                var eRPContext = _context.Ev.Include(d=>d.IdPeNavigation).Include(d=>d.IdEvRefNavigation);
                 switch (col)
                 {
 
@@ -41,59 +61,78 @@ namespace ERP.Controllers
                         {
                             return View(nameof(Index));
                         }
-                        return View(nameof(Index), await eRPContext.Where(c => c.IdPe.ToString() == value).ToListAsync());
+                       
                     case "CoPr":
                        return View(nameof(Index), await eRPContext.Where(c => c.CoPr.Contains(value)).ToListAsync());
-                    //case "IdPeCat":
-                    //    return View(nameof(Index), await eRPContext.Where(c => c.IdPeCatNavigation.PeCat1.Contains(value)).ToListAsync());
-                    //case "JoPe":
-                    //    return View(nameof(Index), await eRPContext.Where(c => c.JoPe.Contains(value)).ToListAsync());
-                    //case "DaPe":
-                    //    try
-                    //    {
-                    //        return View(nameof(Index), await eRPContext.Where(c => c.DaPe.Date == Convert.ToDateTime(value)).ToListAsync());
-                    //    }
-                    //    catch
-                    //    {
-                    //        return View(nameof(Index));
-                    //    }
-                    //case "DaEnPe":
-                    //    try
-                    //    {
-                    //        return View(nameof(Index), await eRPContext.Where(c => c.DaEnPe.Date == Convert.ToDateTime(value)).ToListAsync());
-                    //    }
-                    //    catch
-                    //    {
-                    //        return View(nameof(Index));
-                    //    }
-                    //case "PhoPe":
-                    //    return View(nameof(Index), await eRPContext.Where(c => c.PhoPe.Contains(value.Trim())).ToListAsync());
-                    default: return View(await eRPContext.ToListAsync());
+                    case "IdPe":
+                        return View(nameof(Index), await eRPContext.Where(c => c.IdPeNavigation.NaPe.Contains(value)).ToListAsync());
+                    case "IdEvRef":
+                        return View(nameof(Index), await eRPContext.Where(c => c.IdEvRefNavigation.NaEvRef.Contains(value)).ToListAsync());
+                    case "TitEv":
+                   
+                           return View(nameof(Index), await eRPContext.Where(c =>c.TitEv.Contains(value.Trim())).ToListAsync());                  
+                    case "DaEv":
+                        try
+                        {
+                            return View(nameof(Index), await eRPContext.Where(c => c.DaEv.Value.Date == Convert.ToDateTime(value)).ToListAsync());
+                        }
+                        catch
+                        {
+                            return View(nameof(Index));
+                        }
+                    case "Ti1Ev":
+                        try
+                        {
+                            return View(nameof(Index), await eRPContext.Where(c => c.Ti1Ev == Convert.ToDateTime(value)).ToListAsync());
+                        }
+                        catch
+                        {
+                            return View(nameof(Index));
+                        }
+                    case "Ti2Ev":
+                        try
+                        {
+                            return View(nameof(Index), await eRPContext.Where(c => c.Ti2Ev == Convert.ToDateTime(value)).ToListAsync());
+                        }
+                        catch
+                        {
+                            return View(nameof(Index));
+                        }                 
+                    default: return View(nameof(Index),await eRPContext.ToListAsync());
                 }
             }
             else
-            {
+            {  
+                var eRPContext = _context.Ev.Include(d => d.IdPeNavigation).Include(d => d.IdEvRefNavigation).Where
+                    (
+                 c => c.IdEv.ToString().Contains(value) ||
+                 c.CoPr.Contains(value) ||
+                 c.TitEv.Contains(value) ||
+                 c.IdPeNavigation.NaPe.Contains(value) ||
+                 c.CoPr.Contains(value) ||
+                 c.IdEvRefNavigation.NaEvRef.Contains(value)||
+                 c.DaEv.ToString().Contains(value)||
+                 c.Ti1Ev.ToString().Contains(value)||
+                 c.Ti2Ev.ToString().Contains(value)
                
-              
-                    var eRPContext = _context.Ev.Where
-                   (
-                   c => c.IdEv.ToString().Contains(value) ||
-                   c.CoPr.Contains(value)
-                   
-                 
-                   );
-                    return View(nameof(Index), await eRPContext.ToListAsync());
-                
-            }
+                 );
+                    return View(nameof(Index), await eRPContext.ToListAsync());    
+                }
 
 
 
         }
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string all)
         {
             FillSelectsWithColumns();
-            var eRP1R82Context = _context.Ev.Include(e => e.CoPrNavigation).Include(e => e.IdEvRefNavigation).Include(e=>e.IdPeNavigation);
-            return View(await eRP1R82Context.ToListAsync());
+            var eRP1R82Context = _context.Ev.Include(e => e.CoPrNavigation).Include(e => e.IdEvRefNavigation).Include(e => e.IdPeNavigation);
+            if (!string.IsNullOrEmpty(all))
+            {
+                return View(eRP1R82Context);
+            }
+
+           
+            return View(await eRP1R82Context.Where(dn => dn.DaNev.Value.Date <= DateTime.Now.Date && dn.DaNev.Value.Date >= DateTime.Now.Date.AddDays(-1)).Take(50).ToListAsync());
         }
 
         // GET: Ev/Details/5
@@ -122,6 +161,7 @@ namespace ERP.Controllers
             ViewData["CoPr"] = new SelectList(_context.Pr, "CoPr", "CoPr");
             ViewData["IdEvRef"] = new SelectList(_context.EvRef, "IdEvRef", "NaEvRef");
             ViewData["IdPe"] = new SelectList(_context.Pe, "IdPe", "NaPe");
+       
             return View();
         }
 
@@ -130,16 +170,19 @@ namespace ERP.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdEv,DaEv,Ti1Ev,TitEv,ExEv,NotEv,PlEv,DaNev,IdPe,CoPr,IdEvRef,ArEv,Ti2Ev")] Ev ev)
+        public async Task<IActionResult> Create([Bind("DaEv,Ti1Ev,TitEv,ExEv,NotEv,PlEv,IdPe,CoPr,IdEvRef,ArEv,Ti2Ev")] Ev ev)
         {
             if (ModelState.IsValid)
             {
+                ev.DaNev = DateTime.UtcNow;
                 _context.Add(ev);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                ViewData["message"] = "تمت الاضافة بنجاح";
+                return View(ev);
             }
             ViewData["CoPr"] = new SelectList(_context.Pr, "CoPr", "CoPr", ev.CoPr);
             ViewData["IdEvRef"] = new SelectList(_context.EvRef, "IdEvRef", "NaEvRef", ev.IdEvRef);
+            ViewData["message"] = "لم تتم الاضافة ";
             return View(ev);
         }
 
@@ -228,25 +271,7 @@ namespace ERP.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-        private void FillSelectsWithColumns()
-        {
-            List<SelectListItem> columns = new List<SelectListItem>();
-            foreach (var field in typeof(Ev).GetProperties())
-            {
-                MemberInfo property = typeof(Ev).GetProperty(field.Name);
-                var dd = property.GetCustomAttribute(typeof(DisplayAttribute)) as DisplayAttribute;
-                if (dd != null)
-                {
-                    if (field.Name == "IdEv" || field.Name == "CoPr" || field.Name == "IdPeCat" || field.Name == "JoPe" || field.Name == "DaPe" || field.Name == "DaEnPe" || field.Name == "PhoPe")
-                        columns.Add(new SelectListItem
-                        {
-                            Value = field.Name,
-                            Text = dd.Name
-                        });
-                }
-            }
-            ViewBag.col = columns;
-        }
+      
 
         private bool EvExists(int id)
         {
